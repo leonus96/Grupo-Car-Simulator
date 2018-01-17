@@ -691,7 +691,7 @@
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La siguiente señal vertical reglamentaria P-17A, indica:",
-        "image": "",
+        "image": "/images/questions/ai/50.jpg",
         "alternatives":{
           "a": "Reducción de la calzada al lado derecho.",
           "b": "Reducción de la calzada al lado izquierdo.",
@@ -929,7 +929,7 @@
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La señal preventiva P-33A, significa:",
-        "image": "",
+        "image": "/images/questions/ai/67.jpg",
         "alternatives":{
           "a": "Señal de curva sinuosa.",
           "b": "Señal de proximidad a un badén.",
@@ -1124,7 +1124,7 @@
         "id":81,
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
-        "statement": "obre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
+        "statement": "Sobre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
         "image": "",
         "alternatives":{
           "a": "El uso del cinturón de seguridad es obligatorio para las personas que ocupen los asientos delanteros.",
@@ -1293,7 +1293,7 @@
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es:",
-        "image": "",
+        "image": "/images/questions/ai/93.jpg",
         "alternatives":{
           "a": "Continuar la circulación por el carril en que se encuentra.",
           "b": "Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
@@ -1377,7 +1377,7 @@
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En el caso representado en el siguiente gráfico ¿el vehículo rojo puede rebasar al azul?",
-        "image": "",
+        "image": "/images/questions/ai/99.jpg",
         "alternatives":{
           "a": "Puede hacerlo si no viene un vehículo en el sentido contrario.",
           "b": "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",
@@ -1391,7 +1391,7 @@
         "matter":"Materias generales",
         "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La siguiente señal (R-17), significa:",
-        "image": "",
+        "image": "/images/questions/ai/100.jpg",
         "alternatives":{
           "a": "Puede hacerlo si no viene un vehículo en el sentido contrario.",
           "b": "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",

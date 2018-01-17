@@ -38,6 +38,7 @@ function stop() {
 
 /* Check */
 function check(time=false) {
+    var corrects = Array.apply(null, Array(40)).map(Number.prototype.valueOf,0);
     for(var i = 0; i<40; i++){
         if(document.querySelector('input[name="question' + i + '"]:checked')){
             resolving++;
@@ -46,6 +47,7 @@ function check(time=false) {
             var q_number = q_name.substring(1, 3);
             if(questionData[q_number].response == q_alternative){
                 score++;
+                corrects[i] = 1;
             }
         }
     }
