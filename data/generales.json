@@ -269,7 +269,7 @@
       {
         "id":20,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En el supuesto que se encuentre manejando y un vehículo que tiene la intención de sobrepasarlo o adelantarlo lo alcance, ¿qué debería hacer usted?",
         "image": "",
         "alternatives":{
@@ -283,7 +283,7 @@
       {
         "id":21,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál de las siguientes afirmaciones es correcta?",
         "image": "",
         "alternatives":{
@@ -297,7 +297,7 @@
       {
         "id":22,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué luces debe utilizar un conductor que circula en las vías públicas urbanas por la noche?",
         "image": "",
         "alternatives":{
@@ -311,7 +311,7 @@
       {
         "id":23,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En caso de accidentes, el SOAT cubre los daños que sufren:",
         "image": "",
         "alternatives":{
@@ -325,7 +325,7 @@
       {
         "id":24,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor?",
         "image": "",
         "alternatives":{
@@ -339,7 +339,7 @@
       {
         "id":25,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
         "image": "",
         "alternatives":{
@@ -353,7 +353,7 @@
       {
         "id":26,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
         "image": "",
         "alternatives":{
@@ -367,7 +367,7 @@
       {
         "id":27,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
         "image": "",
         "alternatives":{
@@ -381,7 +381,7 @@
       {
         "id":28,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La siguiente señal vertical reglamentaria P-22C indica que:",
         "image": "/images/questions/ai/28.jpg",
         "alternatives":{
@@ -395,7 +395,7 @@
       {
         "id":29,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
         "image": "",
         "alternatives":{
@@ -409,7 +409,7 @@
       {
         "id":30,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
         "image": "",
         "alternatives":{
@@ -423,7 +423,7 @@
       {
         "id":31,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
         "image": "",
         "alternatives":{
@@ -437,7 +437,7 @@
       {
         "id":32,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
         "image": "/images/questions/ai/32.jpg",
         "alternatives":{
@@ -451,7 +451,7 @@
       {
         "id":33,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué indica la señal R-30F?",
         "image": "/images/questions/ai/33.jpg",
         "alternatives":{
@@ -465,7 +465,7 @@
       {
         "id":34,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué señal debe utilizar el conductor para disminuir la velocidad o detener el vehículo cuando está en marcha?",
         "image": "",
         "alternatives":{
@@ -479,7 +479,7 @@
       {
         "id":35,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si dos vehículos se aproximan simultáneamente a una intersección no regulada (sin señalización) procedentes de vías diferentes, ¿quién tiene preferencia de paso?",
         "image": "/images/questions/ai/35.jpg",
         "alternatives":{
@@ -493,7 +493,7 @@
       {
         "id":36,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En una intersección no regulada (sin señalización) tiene preferencia de paso:",
         "image": "",
         "alternatives":{
@@ -507,7 +507,7 @@
       {
         "id":37,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En una rotonda, tiene prioridad de paso el vehículo que:",
         "image": "",
         "alternatives":{
@@ -521,7 +521,7 @@
       {
         "id":38,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la _________ retornando el vehículo después de la maniobra a su carril original.",
         "image": "",
         "alternatives":{
@@ -535,7 +535,7 @@
       {
         "id":39,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si un conductor está tomando medicamentos y por ello siente sueño ¿qué debe hacer?",
         "image": "",
         "alternatives":{
@@ -549,7 +549,7 @@
       {
         "id":40,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
         "image": "",
         "alternatives":{
@@ -563,7 +563,7 @@
       {
         "id":41,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En los tramos de una vía con pendiente pronunciada, que permite la circulación de un solo vehículo, se debe de tener en cuenta que el vehículo que asciende respecto al vehículo que desciende:",
         "image": "",
         "alternatives":{
@@ -577,7 +577,7 @@
       {
         "id":42,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Al cambiiar de dirección, un conductor debe:",
         "image": "",
         "alternatives":{
@@ -591,7 +591,7 @@
       {
         "id":43,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Se puede conducir un vehículo con el motor en punto neutro?",
         "image": "",
         "alternatives":{
@@ -605,7 +605,7 @@
       {
         "id":44,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Para girar o cambiar de carril hacia la derecha, el conductor debe utilizar las luces direccionales y, en casos de fuerza mayor, la siguiente señal manual:",
         "image": "",
         "alternatives":{
@@ -619,7 +619,7 @@
       {
         "id":45,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
         "image": "",
         "alternatives":{
@@ -633,7 +633,7 @@
       {
         "id":46,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "De acuerdo con el sistema de control de licencias de conducir por puntos:",
         "image": "",
         "alternatives":{
@@ -647,7 +647,7 @@
       {
         "id":47,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es la consecuencia de acumular 100 puntos en la licencia de conducir en un período de 24 meses?",
         "image": "",
         "alternatives":{
@@ -661,7 +661,7 @@
       {
         "id":48,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Se entiende por carril a la:",
         "image": "",
         "alternatives":{
@@ -675,7 +675,7 @@
       {
         "id":49,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Se entiende por línea de parada a:",
         "image": "",
         "alternatives":{
@@ -689,7 +689,7 @@
       {
         "id":50,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La siguiente señal vertical reglamentaria P-17A, indica:",
         "image": "/images/questions/ai/50.jpg",
         "alternatives":{
@@ -703,7 +703,7 @@
       {
         "id":51,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En caso de encontrar marcación de doble línea amarilla compuesta por un trazo continuo y otro trazo discontinuo en una vía de doble sentido, ¿qué se debe hacer?",
         "image": "",
         "alternatives":{
@@ -717,7 +717,7 @@
       {
         "id":52,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Se define como zona rígida al:",
         "image": "",
         "alternatives":{
@@ -731,7 +731,7 @@
       {
         "id":53,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La posición de frente o de espaldas ejecutada por el efectivo de la Policía Nacional del Perú asignado al control de tránsito significa:",
         "image": "",
         "alternatives":{
@@ -745,7 +745,7 @@
       {
         "id":54,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en calles y jirones es de:",
         "image": "",
         "alternatives":{
@@ -759,7 +759,7 @@
       {
         "id":55,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en avenidas es de:",
         "image": "",
         "alternatives":{
@@ -773,7 +773,7 @@
       {
         "id":56,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en vías expresas es de:",
         "image": "",
         "alternatives":{
@@ -787,7 +787,7 @@
       {
         "id":57,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
         "image": "",
         "alternatives":{
@@ -801,7 +801,7 @@
       {
         "id":58,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
         "image": "",
         "alternatives":{
@@ -815,7 +815,7 @@
       {
         "id":59,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Siempre que no exista una señal de límite de velocidad mínima, el límite mínimo de velocidad en zona urbana y en carreteras es de:",
         "image": "",
         "alternatives":{
@@ -829,7 +829,7 @@
       {
         "id":60,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es la sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobados con el examen respectivo, o por negarse al mismo y que haya participado en un accidente de tránsito?",
         "image": "",
         "alternatives":{
@@ -843,7 +843,7 @@
       {
         "id":61,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es la sanción si en un operativo de alcoholemia usted es intervenido y se comprueba que ha consumido alcohol por encima del límite legal, o está conduciendo bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo?",
         "image": "",
         "alternatives":{
@@ -857,7 +857,7 @@
       {
         "id":62,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La frecuencia de la inspección técnica de un vehículo particular es:",
         "image": "",
         "alternatives":{
@@ -871,7 +871,7 @@
       {
         "id":63,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿A partir de qué año de antigüedad debe realizarse la inspección técnica de un vehículo particular para transporte de personas de hasta 9 asientos incluido el conductor de la categoría M1?",
         "image": "",
         "alternatives":{
@@ -885,7 +885,7 @@
       {
         "id":64,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es el plazo de vigencia del SOAT?",
         "image": "",
         "alternatives":{
@@ -899,7 +899,7 @@
       {
         "id":65,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
         "image": "",
         "alternatives":{
@@ -913,7 +913,7 @@
       {
         "id":66,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
         "image": "",
         "alternatives":{
@@ -927,7 +927,7 @@
       {
         "id":67,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La señal preventiva P-33A, significa:",
         "image": "/images/questions/ai/67.jpg",
         "alternatives":{
@@ -941,7 +941,7 @@
       {
         "id":68,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si su vehículo deja de funcionar o comienza a tener problemas y usted trata de moverlo al costado de la autopista, debe:",
         "image": "",
         "alternatives":{
@@ -955,7 +955,7 @@
       {
         "id":69,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Está permitido usar la bocina de su vehículo para advertir al conductor del vehículo que circula delante, que será adelantado?",
         "image": "",
         "alternatives":{
@@ -969,7 +969,7 @@
       {
         "id":70,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si observa que se aproxima una ambulancia sin las luces especiales encendidas y sin sirena, es correcto afirmar que:",
         "image": "",
         "alternatives":{
@@ -983,7 +983,7 @@
       {
         "id":71,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si se encuentra en una intersección y se enciende la luz verde del semáforo y observa que en la calle transversal hay vehículos o personas despejando la intersección, ¿qué debe hacer?",
         "image": "",
         "alternatives":{
@@ -997,7 +997,7 @@
       {
         "id":72,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En señalética vial, el color __________ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color __________ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
         "image": "",
         "alternatives":{
@@ -1011,7 +1011,7 @@
       {
         "id":73,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si una fila de escolares cruza la calzada fuera del crucero peatonal, ¿qué acción se debe tomar?",
         "image": "",
         "alternatives":{
@@ -1025,7 +1025,7 @@
       {
         "id":74,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si se aproxima a una zona escolar, ¿qué acción debe realizar?",
         "image": "",
         "alternatives":{
@@ -1039,7 +1039,7 @@
       {
         "id":75,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Tienen el objetivo de notificar a los usuarios las limitaciones, prohibiciones o restricciones en el uso de la vía.",
         "image": "",
         "alternatives":{
@@ -1053,7 +1053,7 @@
       {
         "id":76,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Tienen el propósito de advertir a los usuarios sobre la existencia y naturaleza de un peligro en la vía.",
         "image": "",
         "alternatives":{
@@ -1067,7 +1067,7 @@
       {
         "id":77,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Es una infracción de tránsito:",
         "image": "",
         "alternatives":{
@@ -1081,7 +1081,7 @@
       {
         "id":78,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué debería hacer el conductor al acercarse a una señal de “CEDA EL PASO” en una intersección?",
         "image": "",
         "alternatives":{
@@ -1095,7 +1095,7 @@
       {
         "id":79,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "No se debe conducir un vehículo:",
         "image": "",
         "alternatives":{
@@ -1109,7 +1109,7 @@
       {
         "id":80,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué debe hacer si se aproxima a una intersección sin semáforo y sin presencia de la Policía de Tránsito, y observa que un peatón está cruzando por el paso peatonal?",
         "image": "",
         "alternatives":{
@@ -1123,7 +1123,7 @@
       {
         "id":81,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Sobre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
         "image": "",
         "alternatives":{
@@ -1137,7 +1137,7 @@
       {
         "id":82,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la _________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la ___________",
         "image": "",
         "alternatives":{
@@ -1151,7 +1151,7 @@
       {
         "id":83,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Sobre el uso de la bocina del vehículo, es correcto afirmar que:",
         "image": "",
         "alternatives":{
@@ -1165,7 +1165,7 @@
       {
         "id":84,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Una línea blanca continua en el sentido longitudinal de una vía, que se coloca en el pavimento, le indica al conductor:",
         "image": "",
         "alternatives":{
@@ -1179,7 +1179,7 @@
       {
         "id":85,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál es el número máximo de personas que puede transportar un vehículo particular?",
         "image": "",
         "alternatives":{
@@ -1193,7 +1193,7 @@
       {
         "id":86,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La acción correcta al abastecer de combustible su vehículo, es:",
         "image": "",
         "alternatives":{
@@ -1207,7 +1207,7 @@
       {
         "id":87,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Mientras usted está conduciendo su vehículo automotor, ¿puede llevar sujeto a su auto al conductor de una bicicleta mientras éste la conduce?",
         "image": "",
         "alternatives":{
@@ -1221,7 +1221,7 @@
       {
         "id":88,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si usted desea realizar una competencia de carreras entre su vehículo y otro vehículo motorizado; para ello puede utilizar: ",
         "image": "",
         "alternatives":{
@@ -1235,7 +1235,7 @@
       {
         "id":89,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Señale cuáles de las siguientes conductas constituye una infracción al tránsito:",
         "image": "",
         "alternatives":{
@@ -1249,7 +1249,7 @@
       {
         "id":90,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La marcas en el pavimento constituyen un elemento indispensable para la operación vehicular, pues su función es:",
         "image": "",
         "alternatives":{
@@ -1263,7 +1263,7 @@
       {
         "id":91,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Las marcas en el pavimento de color __________ complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
         "image": "",
         "alternatives":{
@@ -1277,7 +1277,7 @@
       {
         "id":92,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La línea central de color amarillo en el pavimento es continua cuando:",
         "image": "",
         "alternatives":{
@@ -1291,7 +1291,7 @@
       {
         "id":93,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es:",
         "image": "/images/questions/ai/93.jpg",
         "alternatives":{
@@ -1305,7 +1305,7 @@
       {
         "id":94,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si durante la conducción vehicular, un efectivo de la Policía de Tránsito le solicita al conductor someterse a una prueba de alcoholemia; la acción correcta del conductor es:",
         "image": "",
         "alternatives":{
@@ -1319,7 +1319,7 @@
       {
         "id":95,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Cuál de las siguientes conductas no es una infracción de tránsito?",
         "image": "",
         "alternatives":{
@@ -1333,7 +1333,7 @@
       {
         "id":96,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si un conductor sale de su propiedad y tiene que cruzar la acera e ingresar a una vía, la conducta correcta es:",
         "image": "",
         "alternatives":{
@@ -1347,7 +1347,7 @@
       {
         "id":97,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "¿Qué significa una línea continua blanca pintada entre el carril de la derecha y la berma de una carretera?",
         "image": "",
         "alternatives":{
@@ -1361,7 +1361,7 @@
       {
         "id":98,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "Si maneja de noche, hubiera neblina y tuviera luces rompenieblas, debe utilizar:",
         "image": "",
         "alternatives":{
@@ -1375,7 +1375,7 @@
       {
         "id":99,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "En el caso representado en el siguiente gráfico ¿el vehículo rojo puede rebasar al azul?",
         "image": "/images/questions/ai/99.jpg",
         "alternatives":{
@@ -1389,7 +1389,7 @@
       {
         "id":100,
         "matter":"Materias generales",
-        "matter-type": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+        "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
         "statement": "La siguiente señal (R-17), significa:",
         "image": "/images/questions/ai/100.jpg",
         "alternatives":{

@@ -2,7 +2,7 @@
 
 class CategoriesController{
     getAi(req, res, next){
-        let data = require('../data/ai');
+        let data = require('../data/generales');
         let array = getList(100);
         let newRandom = randomFromListGenerator(array);
         let questions = {
@@ -21,18 +21,20 @@ class CategoriesController{
     }
 
     getAiia(req, res, next){
-        let data = require('../data/aiia');
-        let array = getList(100);
-        let newRandom = randomFromListGenerator(array);
+        let data_g = require('../data/generales');
+        let daata_aiia = require('../data/aiia');
+        let array_g = getList(100);
+        let array_aiia = getList(24);
+        let newRandom_g = randomFromListGenerator(array_g);
+        let newRandom_aiia = randomFromListGenerator(array_aiia);
         let questions = {
             questions: []
         };
-        for(let i = 0; i < 40; i++){
-            questions.questions.push(data.questions[newRandom()])
-            //console.log(newRandom());
-        }
-        console.log(questions.questions[0]);
-
+        for(let i = 0; i < 20; i++)
+            questions.questions.push(data_g.questions[newRandom_g()])
+        for(let i = 0; i < 20; i++)
+            questions.questions.push(daata_aiia.questions[newRandom_aiia()])
+        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIa",
             questions: questions.questions
@@ -40,18 +42,20 @@ class CategoriesController{
     }
 
     getAiib(req, res, next){
-        let data = require('../data/aiib');
-        let array = getList(100);
-        let newRandom = randomFromListGenerator(array);
+        let data_g = require('../data/generales');
+        let data_aiib = require('../data/aiib');
+        let array_g = getList(100);
+        let array_aiib = getList(70);
+        let newRandom_g = randomFromListGenerator(array_g);
+        let newRandom_aiib = randomFromListGenerator(array_aiib);
         let questions = {
             questions: []
         };
-        for(let i = 0; i < 40; i++){
-            questions.questions.push(data.questions[newRandom()])
-            //console.log(newRandom());
-        }
-        console.log(questions.questions[0]);
-
+        for(let i = 0; i < 20; i++)
+            questions.questions.push(data_g.questions[newRandom_g()])
+        for(let i = 0; i < 20; i++)
+            questions.questions.push(data_aiib.questions[newRandom_aiib()])
+        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIb",
             questions: questions.questions
