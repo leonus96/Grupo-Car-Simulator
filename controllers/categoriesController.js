@@ -41,12 +41,12 @@ class CategoriesController{
 
     getAiib(req, res, next){
         let data = require('../data/aiib');
-        let array = getList(20);
+        let array = getList(100);
         let newRandom = randomFromListGenerator(array);
         let questions = {
             questions: []
         };
-        for(let i = 0; i < 10; i++){
+        for(let i = 0; i < 40; i++){
             questions.questions.push(data.questions[newRandom()])
             //console.log(newRandom());
         }
