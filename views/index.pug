@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .container
+        .welcome
+            h2.welcome__title SIMULACRO DE PREGUNTAS PARA LA EVALUACIÓN DE CONOCIMIENTOS EN LA CONDUCCIÓN PARA POSTULANTES A LICENCIAS DE CONDUCIR
+            p.welcome__text El examen contiene 40 preguntas y tiene una duración de 40 minutos, y para su aprobación, el postulante deberá de acertar por lo menos treinta y cinco (35) respuestas de las cuarenta (40) preguntas. Es importante realizar este examen en completo silencio para evitar distracciones.
+            p.welcome__text Los componentes de este examen son temas de: Obligaciones del Conductor en materia de tránsito, Inspección Técnica Vehicular, Reglamento Nacional de Vehículos, Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito, Reglamento de Placa Única Nacional de Rodaje y Primeros Auxilios, en caso de accidentes de tránsito.
+            p.welcome__text Acabada la prueba, deseamos que lean los comentarios de todos e identifiquen el tema que les falta reforzar, con miras a estar aptos para el examen de Licencia de Conducir.
+            p.welcome__text El examen estará activo las 24 horas para que puedan resolver la prueba de conocimientos, según la categoría a la que postulan. Acabada la prueba, los resultados se podrán visualizar.
+    .categories.container
+        a(href='/ai' ).categories__item AI
+        a(href='/aiia').categories__item AIIa
+        a(href='/aiib').categories__item.inactive AIIb
+        a(href='/aiiia').categories__item.inactive AIIIa
+        a(href='/aiiib').categories__item.inactive AIIIb
+        a(href='/aiiic').categories__item.inactive AIIIc
+
+

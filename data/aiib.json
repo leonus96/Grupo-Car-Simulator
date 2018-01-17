@@ -1,0 +1,1015 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Está permitido en la vía:",
+      "image": "",
+      "alternatives": {
+        "a": "Recoger o dejar pasajeros o carga en cualquier lugar",
+        "b": "Dejar animales sueltos o situarlos de forma tal que obstaculicen solo un poco el tránsito",
+        "c": "Recoger o dejar pasajeros en lugares autorizados.",
+        "d": "Ejercer el comercio ambulatorio o estacionario"
+      },
+      "response": "c"
+    },
+    {
+      "id": 2,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Respecto de los dispositivos de control o regulación del tránsito:",
+      "image": "",
+      "alternatives": {
+        "a": "Solo los peatones están obligados a su obediencia",
+        "b": "Los conductores y los peatones están obligados a su obediencia, salvo instrucción de la Policía Nacional del Perú asignada al tránsito que indique lo contrario",
+        "c": "Solo los conductores están obligados a su obediencia.",
+        "d": "Los conductores están obligados a su obediencia, aun cuando la Policía Nacional del Perú asignada al tránsito pueda indicar lo contrario."
+      },
+      "response": "b"
+    },
+    {
+      "id": 3,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "La señal vertical reglamentaria R-6 ¿prohibido voltear a la izquierda¿, significa que:",
+      "image": "",
+      "alternatives": {
+        "a": "Está prohibido voltear a la izquierda y, por lo tanto también está prohibido el giro en U.",
+        "b": "Está prohibido voltear a la izquierda, sin embargo, está permitido el giro en U.",
+        "c": "El único sentido de desplazamiento es continuar de frente.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 4,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "La señal vertical reglamentaria R-3 significa que:",
+      "image": "/images/questions/aiib/4.jpg",
+      "alternatives": {
+        "a": "Nos acercamos a una zona restringida al tránsito.",
+        "b": "Está permitido adelantar vehículos.",
+        "c": "El único sentido de desplazamiento es continuar de frente.",
+        "d": "Ninguna de las alternativas es correcta"
+      },
+      "response": ""
+    },
+    {
+      "id": 5,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
+      "image": "",
+      "alternatives": {
+        "a": "Está permitido cruzar al otro carril para el adelantamiento vehicular, si es que es seguro hacerlo.",
+        "b": "No está permitido cruzar al otro carril para el adelantamiento vehicular.",
+        "c": "Se está reduciendo el ancho de la calzada de la vía por donde se circula.",
+        "d": "Se está frente a un lugar de cruce peatonal."
+      },
+      "response": "a"
+    },
+    {
+      "id": 6,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "El color ámbar o amarillo del semáforo significa que:",
+      "image": "",
+      "alternatives": {
+        "a": "Los vehículos deben avanzar.",
+        "b": "Los vehículos deben detenerse.",
+        "c": "Los vehículos deben acelerar la marcha.",
+        "d": "Los vehículos deben detenerse antes de ingresar a la intersección si su velocidad y ubicación lo permiten; de lo contrario, deberán cruzar y despejar la intersección."
+      },
+      "response": "d"
+    },
+    {
+      "id": 7,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Los colores del semáforo tienen el siguiente significado: rojo: _____ ; ámbar o amarillo: _____; verde: ____.",
+      "image": "",
+      "alternatives": {
+        "a": "Detención - prevención - paso.",
+        "b": "Detención - paso con prevención - circulación rápida.",
+        "c": "Disminución de la velocidad - prevención - paso rápido.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 8,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿Qué indica una flecha verde en un semáforo vehicular?",
+      "image": "",
+      "alternatives": {
+        "a": "Se puede continuar con precaución únicamente en la dirección de la flecha y desde el carril que esta flecha controla.",
+        "b": "No está permitida la circulación en el sentido que indica la flecha.",
+        "c": "Se debe respetar únicamente la luz circular.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 9,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "La siguiente señal vertical reglamentaria R-53:",
+      "image": "",
+      "alternatives": {
+        "a": "Prohíbe estacionar.",
+        "b": "Prohíbe al conductor detener el vehículo dentro del área de la intersección.",
+        "c": "Prohíbe la carga y descarga.",
+        "d": "Prohíbe la circulación de vehículos motorizados"
+      },
+      "response": "b"
+    },
+    {
+      "id": 10,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Si llega a una intersección y visualiza el semáforo con una flecha roja hacia la izquierda y la luz circular verde prendidas al mismo tiempo, la acción correcta es:",
+      "image": "",
+      "alternatives": {
+        "a": "Avanzar en cualquier sentido, ya que la luz circular está en verde.",
+        "b": "Avanzar, pero el giro a la izquierda está prohibido por la flecha roja.",
+        "c": "Avanzar únicamente hacia la izquierda, pues continuar de frente está prohibido.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "b"
+    },
+    {
+      "id": 11,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Si llega a una intersección donde el semáforo muestra una luz intermitente, qué afirmación es correcta:",
+      "image": "",
+      "alternatives": {
+        "a": "Si la luz intermitente es roja, ésta es equivalente a un ¿CEDA EL PASO?",
+        "b": "Si la luz intermitente es ámbar, tiene preferencia, debiendo reducir la velocidad y continuar con precaución.",
+        "c": "Si la luz intermitente es verde, ésta es equivalente a un “PARE”.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "b"
+    },
+    {
+      "id": 12,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿La luz intermitente roja es igual que una señal de PARE?",
+      "image": "",
+      "alternatives": {
+        "a": "Verdad.",
+        "b": "Es verdad siempre y cuando también se encuentre un Policía de Tránsito indicando la señal de Pare.",
+        "c": "Falso",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 13,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Al aproximarse a una intersección con giro permitido a la izquierda, la conducta correcta es:",
+      "image": "",
+      "alternatives": {
+        "a": "Girar desde cualquier carril.",
+        "b": "Colocarse en el carril derecho, luego girar con precaución.",
+        "c": "Colocarse en el carril más despejado de tráfico, luego girar con precaución.",
+        "d": "Hacer la señal de volteo a la izquierda con las luces direccionales, ubicar con antelación el vehículo en el carril de circulación de la izquierda y girar con precaución."
+      },
+      "response": "d"
+    },
+    {
+      "id": 14,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Al cambiar de carril en una vía de un solo sentido con múltiples carriles, ¿cuál es la conducta correcta?",
+      "image": "",
+      "alternatives": {
+        "a": "Se deben encender las luces direccionales primero, buscar una brecha y realizar el cambio de carril con precaución.",
+        "b": "Se debe encontrar una brecha, luego cambiar de carril con precaución; no es necesario el uso de luces direccionales para cambios de carril.",
+        "c": "Se debe advertir utilizando el claxon, identificar una brecha y realizar el cambio de carril con precaución.",
+        "d": "Está prohibido el cambio de carril en vías de un solo sentido."
+      },
+      "response": "a"
+    },
+    {
+      "id": 15,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Respecto a los cruces a nivel con vías férreas, señale la afirmación correcta:  ",
+      "image": "",
+      "alternatives": {
+        "a": "Los vehículos que transitan por la vía férrea tienen preferencia de paso sobre los que transitan por la vía que la cruza.",
+        "b": "Los vehículos que transitan por la vía que cruza la línea férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
+        "c": "El vehículo que llegue primero tiene preferencia.",
+        "d": "Tiene preferencia el conductor que viene por la derecha del otro."
+      },
+      "response": "a"
+    },
+    {
+      "id": 16,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Ante la señal de color rojo del semáforo y la indicación de continuar la marcha del efectivo de la Policía Nacional del Perú asignado al control del tránsito, corresponde:",
+      "image": "",
+      "alternatives": {
+        "a": "Detenerse hasta que cambie a luz verde.",
+        "b": "Continuar la marcha.",
+        "c": "Estar prevenido.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "b"
+    },
+    {
+      "id": 17,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Está prohibido estacionar un vehículo:",
+      "image": "",
+      "alternatives": {
+        "a": "En las curvas.",
+        "b": "Dentro de una intersección.",
+        "c": "Frente a la entrada de garajes y de recintos militares o policiales.",
+        "d": "Todas las alternativas son correctas."
+      },
+      "response": "d"
+    },
+    {
+      "id": 18,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "La siguiente señal vertical reglamentaria (R-29):",
+      "image": "",
+      "alternatives": {
+        "a": "Prohíbe el uso de la bocina en vías urbanas.",
+        "b": "Prohíbe el uso de la bocina en carreteras.",
+        "c": "Prohíbe el uso de la bocina.",
+        "d": "Prohíbe hacer ruido."
+      },
+      "response": "c"
+    },
+    {
+      "id": 19,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Se le impondrá el pago de una multa y no podrá obtener la licencia de conducir por 3 años a la persona que:",
+      "image": "",
+      "alternatives": {
+        "a": "Conduzca un vehículo automotor sin tener licencia de conducir.",
+        "b": "Conduzca un vehículo que no cuente con el equipamiento para brindar una máxima comodidad a sus ocupantes.",
+        "c": "Conduzca un vehículo sin contar con el SOAT.",
+        "d": "a y c son correctas"
+      },
+      "response": "a"
+    },
+    {
+      "id": 20,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "En el supuesto que se encuentre manejando y un vehículo que tiene la intención de sobrepasarlo o adelantarlo lo alcance, ¿qué debería hacer usted?",
+      "image": "",
+      "alternatives": {
+        "a": "Debe aumentar la velocidad para no dejar que el otro vehículo lo pase.",
+        "b": "No debe aumentar la velocidad hasta que el vehículo lo sobrepase.",
+        "c": "Debe disminuir drásticamente la velocidad de su vehículo.",
+        "d": "Debe detener su vehículo."
+      },
+      "response": "b"
+    },
+    {
+      "id": 21,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "image": "",
+      "alternatives": {
+        "a": "El conductor debe respetar los límites máximos y mínimos de velocidad establecidos.",
+        "b": "El conductor debe respetar únicamente los límites máximos de velocidad, pues no existen límites mínimos.",
+        "c": "El conductor puede conducir a la velocidad que desee, siempre que lo haga de manera prudente.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 22,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿Qué luces debe utilizar un conductor que circula en las vías públicas urbanas por la noche?",
+      "image": "",
+      "alternatives": {
+        "a": "Bajas.",
+        "b": "Altas.",
+        "c": "Luces altas en las intersecciones y bajas en las avenidas.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "a"
+    },
+    {
+      "id": 23,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "En caso de accidentes, el SOAT cubre los daños que sufren:",
+      "image": "",
+      "alternatives": {
+        "a": "Solo los ocupantes del vehículo.",
+        "b": "Los ocupantes y terceros no ocupantes del vehículo.",
+        "c": "Solo terceros afectados.",
+        "d": "Solo el conductor del vehículo."
+      },
+      "response": "b"
+    },
+    {
+      "id": 24,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor?",
+      "image": "",
+      "alternatives": {
+        "a": "Cualquier tipo de seguro de accidentes personales que comercialicen las empresas de seguro.",
+        "b": "Cualquier tipo de seguro vehicular, siempre que cubra a los ocupantes del vehículo y terceros afectados por un accidente de tránsito.",
+        "c": "El Seguro Obligatorio de Accidentes de Tránsito - SOAT.",
+        "d": "No es obligatorio contar con un seguro."
+      },
+      "response": "c"
+    },
+    {
+      "id": 25,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
+      "image": "",
+      "alternatives": {
+        "a": "Cuando emita señales visibles.",
+        "b": "Cuando emita señales audibles.",
+        "c": "Cuando emita señales audibles y visibles.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "c"
+    },
+    {
+      "id": 26,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
+      "image": "",
+      "alternatives": {
+        "a": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los escolares.",
+        "b": "Adelantar por el lado izquierdo, pero con precaución.",
+        "c": "Tocar el claxon para alertar que está pasando.",
+        "d": "Adelantar muy despacio."
+      },
+      "response": "a"
+    },{
+      "id": 27,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
+      "image": "",
+      "alternatives": {
+        "a": "La presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
+        "b": "Zona de obras por reparación en la calzada.",
+        "c": "Que el vehículo que lo enfrenta debe detenerse.",
+        "d": "a y c son correctas."
+      },
+      "response": "a"
+    },
+    {
+      "id": 28,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "La siguiente señal vertical reglamentaria P-22C indica que:",
+      "image": "",
+      "alternatives": {
+        "a": "Está permitido adelantar.",
+        "b": "Se aproxima un carril adicional.",
+        "c": "Está permitido cambiar de carril.",
+        "d": "Ninguna de las alternativas es correcta."
+      },
+      "response": "b"
+    },
+    {
+      "id": 29,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Las luces intermitentes de emergencia del vehículo deben utilizarse obligatoriamente:",
+      "image": "",
+      "alternatives": {
+        "a": "Para girar en las intersecciones y para advertir los cambios de carril.",
+        "b": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras riesgosas.",
+        "c": "Durante toda la circulación del vehículo.",
+        "d": "En cada intersección."
+      },
+      "response": "b"
+    },
+    {
+      "id": 30,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
+      "image": "",
+      "alternatives": {
+        "a": "No.",
+        "b": "Si.",
+        "c": "Depende de la intersección.",
+        "d": "No se encuentra regulado en el reglamento."
+      },
+      "response": "b"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
+      "image": "",
+      "alternatives": {
+        "a": "Disminuir su velocidad y cederle el paso a los vehículos que circulan por la transversal.",
+        "b": "Disminuir su velocidad y pasar con cuidado.",
+        "c": "Sobre parar y pasar rápidamente.",
+        "d": "Parar por completo, ceder el paso a los usuarios que tengan preferencia y luego continuar con precaución."
+      },
+      "response": "d"
+    },
+    {
+      "id": 32,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 31,
+      "matter": "Materias generales",
+      "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    }
+
+
+
+
+  ]
+}

@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    include partials/chronometer
+    script.
+        var questionData = !{JSON.stringify(questions)}
+    .questions.container
+        - var i = 0
+        while i < questions.length
+            .question
+                p.question__theme #{questions[i].theme}
+                p.question__statement  #{ i + 1 }) #{questions[i].statement}
+                if questions[i].image
+                    .question__image
+                        img(src=questions[i].image)
+                .question__alternatives
+                    .alternative
+                        input(type='radio' name='question' + i value='a' id='a' + i)
+                        label(for='a'+ i) #{questions[i].alternatives.a}
+                    .alternative
+                        input(type='radio' name='question' + i value='b' id='b' + i)
+                        label(for='b'+ i) #{questions[i].alternatives.b}
+                    .alternative
+                        input(type='radio' name='question' + i value='c' id='c' + i)
+                        label(for='c' + i) #{questions[i].alternatives.c}
+                    .alternative
+                        input(type='radio' name='question' + i value='d' id='d' + i)
+                        label(for='d' + i) #{questions[i].alternatives.d}
+            -i++
+        button.btn-check Simulacro Completo
+    script.
+        var chr = document.querySelector('.chronometer');
+        var questions = document.querySelector('.questions');
+        window.document.body.onscroll = function () {
+            if((window.pageYOffset || document.documentElement.scrollTop) > 80){
+                chr.classList.add('chronometer--sticky');
+                questions.style.marginTop = "80px";
+            }else{
+                chr.classList.remove('chronometer--sticky');
+                questions.style.marginTop = "0px";
+            }
+        }
