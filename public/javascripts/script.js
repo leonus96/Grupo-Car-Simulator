@@ -51,9 +51,10 @@ function check(time=false) {
     }
     if(resolving != 40 && !time){
         if(confirm(
-            'Existen preguntas las cuales no ha seleccionado, por favor revisar y seleccionar su alternativa./n' +
-            'Preguntas sin resolver: ' + (40 - resolving) + '/n' +
-            'Preguntas resueltas: ' + resolving,
+            'Existen preguntas las cuales no ha seleccionado, por favor revisar y resolver las preguntas.\n' +
+            'Preguntas sin resolver: ' + (40 - resolving) + '\n' +
+            'Preguntas resueltas: ' + resolving + '\n' +
+            '¿Corregir de todas formas  ?',
         ) == false){
             return;
         }
@@ -63,7 +64,7 @@ function check(time=false) {
     var element1 = document.createElement("input");
 
     form.method = "POST";
-    form.action = "/simulator/check";
+    form.action = "/simulador/check";
 
     element1.value=score;
     element1.name="score";
