@@ -226,6 +226,7 @@ body{
 
 .result-body{
     display: flex;
+    justify-content: center;
 }
 
 .result-body__item{
@@ -278,4 +279,46 @@ body{
 .navigation__btn--green:hover{
     background-color: #41e8b9;
 }
+
+.result-reviewed{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.result-reviewed__title{
+    font-size: 25px;
+    color: #435966;
+    margin-bottom: 20px;
+}
+
+.result-reviewed__body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-reviewed__item{
+    padding: 10px;
+    margin: 10px;
+    width: calc(5% - 20px);
+    text-align: center;
+}
+
+.result-reviewed__item--false{
+    background: #FFD8E1;
+}
+
+.result-reviewed__item--true{
+    background: #DBF2F2;
+}
+
 

@@ -16,6 +16,20 @@ block content
             .result-body__item__number #{percentage} %
         .result-body__item
             canvas(id="result-bar" width="500" height="400")
+    .result-reviewed
+        .result-reviewed__title Aciertos por pregunta
+        .result-reviewed__body
+            - var i = 1
+            - var reviews = JSON.parse(reviewed)
+            while i <= 40
+                if reviews[i-1]
+                    .result-reviewed__item.result-reviewed__item--true
+                        p #{i}
+                else
+                    .result-reviewed__item.result-reviewed__item--false
+                        p #{i}
+                - i++
+
     .navigation
         a.navigation__btn(href="javascript:history.go(-1)") Corregir
         a.navigation__btn.navigation__btn--green(href="/simulador") Inicio

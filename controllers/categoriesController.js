@@ -117,6 +117,7 @@ class CategoriesController{
 
     check(req, res, next){
         let rights = req.body.score;
+        let reviewed = req.body.reviewed;
         let percentage = rights/40*100;
         let incorrect = 40 - rights;
         res.render(
@@ -124,7 +125,8 @@ class CategoriesController{
             {
                 rights: rights,
                 incorrect: incorrect,
-                percentage: percentage
+                percentage: percentage,
+                reviewed: JSON.parse(reviewed)
             }
         );
     }
