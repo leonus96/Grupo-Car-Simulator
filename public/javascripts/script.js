@@ -58,19 +58,12 @@ function check(time=false) {
             return;
         }
     }
-    console.log("pasé");
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/check', true);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(JSON.stringify({
-        score: score
-    }));
 
     var form = document.createElement("form");
     var element1 = document.createElement("input");
 
     form.method = "POST";
-    form.action = "/check";
+    form.action = "/simulator/check";
 
     element1.value=score;
     element1.name="score";
