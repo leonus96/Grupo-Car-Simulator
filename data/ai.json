@@ -1393,12 +1393,12 @@
         "statement": "La siguiente señal (R-17), significa:",
         "image": "/images/questions/ai/100.jpg",
         "alternatives":{
-          "a": "Puede hacerlo si no viene un vehículo en el sentido contrario.",
-          "b": "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",
-          "c": "No puede hacerlo.",
-          "d": "Puede hacerlo por la izquierda."
+          "a": "Prohibido estacionar.",
+          "b": "Prohibida la circulación de vehículos automotores.",
+          "c": "Prohibida la circulación de autos particulares.",
+          "d": "Ninguna de las alternativas es correcta."
         },
-        "response": "c"
+        "response": "b"
       }
     ]
 }
