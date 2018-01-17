@@ -20,9 +20,11 @@ block content
         .result-reviewed__title Aciertos por pregunta
         .result-reviewed__body
             - var i = 1
-            - var reviews = JSON.parse(reviewed)
+            - var reviews = JSON.stringify(reviewed).slice(1, 80); //.map(function (i) {return parseInt(i, 10);});
+            - reviews = JSON.parse("[" + reviews + "]");
+            //p #{reviews[5]}
             while i <= 40
-                if reviews[i-1]
+                if reviews[i-1] == '1'
                     .result-reviewed__item.result-reviewed__item--true
                         p #{i}
                 else
