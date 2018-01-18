@@ -578,7 +578,7 @@
         "id":42,
         "matter":"Materias generales",
         "theme": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
-        "statement": "Al cambiiar de dirección, un conductor debe:",
+        "statement": "Al cambiar de dirección, un conductor debe:",
         "image": "",
         "alternatives":{
           "a": "Señalizar toda la maniobra hasta su culminación.",
