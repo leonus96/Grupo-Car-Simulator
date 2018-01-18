@@ -34,8 +34,10 @@ block content
                 - i++
 
     .navigation
+
+        a.navigation__btn.navigation__btn--blue(onclick="window.history.back();") Modificar respuestas
+        a.navigation__btn.navigation__btn--green(href="/simulador") Otro intento
         button.navigation__btn(href="#" id="btn-check") Corregir
-        a.navigation__btn.navigation__btn--green(href="/simulador") Inicio
     script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js')
     script.
         var ctx = document.getElementById('result-bar').getContext('2d');

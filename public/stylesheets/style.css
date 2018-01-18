@@ -306,8 +306,16 @@ body{
     background-color: #3bbe93;
 }
 
+.navigation__btn--blue{
+    background-color: #1861be;
+}
+
 .navigation__btn--green:hover{
     background-color: #41e8b9;
+}
+
+.navigation__btn--blue:hover{
+    background-color: #2099be;
 }
 
 .result-reviewed{
