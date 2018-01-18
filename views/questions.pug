@@ -1,49 +1,136 @@
 extends layout
 
 block content
-    include partials/chronometer
+    - var checking = (check == 'true');
+    if checking
+        - var reviews = JSON.stringify(reviewed);
+        - reviews = JSON.parse(reviews).split(',');
+    else
+        include partials/chronometer
     script.
         var questionData = !{JSON.stringify(questions)}
     .questions.container
         - var i = 0
         while i < questions.length
-            .question
-                p.question__theme #{questions[i].theme}
-                p.question__statement  #{ i + 1 }) #{questions[i].statement}
-                if questions[i].image
-                    .question__image
-                        img(src=questions[i].image)
-                .question__alternatives
-                    .alternative
-                        input(type='radio' name='question' + i value='a' id='a' + i)
-                        if questions[i].alternatives.a
-                            label(for='a'+ i)  a) #{questions[i].alternatives.a}
-                        else
-                            label(for='a'+ i)
-                                img(src=questions[i].alternatives.a_img)
-                    .alternative
-                        input(type='radio' name='question' + i value='b' id='b' + i)
-                        if questions[i].alternatives.b
-                            label(for='b' + i)  b) #{questions[i].alternatives.b}
-                        else
-                            label(for='b' + i)
-                                img(src=questions[i].alternatives.b_img)
-                    .alternative
-                        input(type='radio' name='question' + i value='c' id='c' + i)
-                        if questions[i].alternatives.c
-                            label(for='c' + i)  c) #{questions[i].alternatives.c}
-                        else
-                            label(for='c' + i)
-                                img(src=questions[i].alternatives.c_img)
-                    .alternative
-                        input(type='radio' name='question' + i value='d' id='d' + i)
-                        if questions[i].alternatives.d
-                            label(for='d' + i)  d) #{questions[i].alternatives.d}
-                        else
-                            label(for='d' + i)
-                                img(src=questions[i].alternatives.d_img)
+            if checking
+                //p #{reviews[2]}
+                if reviews[i] == "1"
+                    .question.question--correct
+                        p.question__theme #{questions[i].theme}
+                        p.question__statement  #{ i + 1 }) #{questions[i].statement}
+                        if questions[i].image
+                            .question__image
+                                img(src=questions[i].image)
+                        .question__alternatives
+                            .alternative
+                                input(type='radio' name='question' + i value='a' id='a' + i)
+                                if questions[i].alternatives.a
+                                    label(for='a' + i)  a) #{questions[i].alternatives.a}
+                                else
+                                    label(for='a' + i)
+                                        img(src=questions[i].alternatives.a_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='b' id='b' + i)
+                                if questions[i].alternatives.b
+                                    label(for='b' + i)  b) #{questions[i].alternatives.b}
+                                else
+                                    label(for='b' + i)
+                                        img(src=questions[i].alternatives.b_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='c' id='c' + i)
+                                if questions[i].alternatives.c
+                                    label(for='c' + i)  c) #{questions[i].alternatives.c}
+                                else
+                                    label(for='c' + i)
+                                        img(src=questions[i].alternatives.c_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='d' id='d' + i)
+                                if questions[i].alternatives.d
+                                    label(for='d' + i)  d) #{questions[i].alternatives.d}
+                                else
+                                    label(for='d' + i)
+                                        img(src=questions[i].alternatives.d_img)
+                        .question__response
+                            p Respuesta correcta: #{questions[i].response}
+                else
+                    .question.question--incorrect
+                        p.question__theme #{questions[i].theme}
+                        p.question__statement  #{ i + 1 }) #{questions[i].statement}
+                        if questions[i].image
+                            .question__image
+                                img(src=questions[i].image)
+                        .question__alternatives
+                            .alternative
+                                input(type='radio' name='question' + i value='a' id='a' + i)
+                                if questions[i].alternatives.a
+                                    label(for='a' + i)  a) #{questions[i].alternatives.a}
+                                else
+                                    label(for='a' + i)
+                                        img(src=questions[i].alternatives.a_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='b' id='b' + i)
+                                if questions[i].alternatives.b
+                                    label(for='b' + i)  b) #{questions[i].alternatives.b}
+                                else
+                                    label(for='b' + i)
+                                        img(src=questions[i].alternatives.b_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='c' id='c' + i)
+                                if questions[i].alternatives.c
+                                    label(for='c' + i)  c) #{questions[i].alternatives.c}
+                                else
+                                    label(for='c' + i)
+                                        img(src=questions[i].alternatives.c_img)
+                            .alternative
+                                input(type='radio' name='question' + i value='d' id='d' + i)
+                                if questions[i].alternatives.d
+                                    label(for='d' + i)  d) #{questions[i].alternatives.d}
+                                else
+                                    label(for='d' + i)
+                                        img(src=questions[i].alternatives.d_img)
+                        .question__response
+                            p Respuesta correcta: #{questions[i].response}
+            else
+                .question
+                    p.question__theme #{questions[i].theme}
+                    p.question__statement  #{ i + 1 }) #{questions[i].statement}
+                    if questions[i].image
+                        .question__image
+                            img(src=questions[i].image)
+                    .question__alternatives
+                        .alternative
+                            input(type='radio' name='question' + i value='a' id='a' + i)
+                            if questions[i].alternatives.a
+                                label(for='a' + i)  a) #{questions[i].alternatives.a}
+                            else
+                                label(for='a' + i)
+                                    img(src=questions[i].alternatives.a_img)
+                        .alternative
+                            input(type='radio' name='question' + i value='b' id='b' + i)
+                            if questions[i].alternatives.b
+                                label(for='b' + i)  b) #{questions[i].alternatives.b}
+                            else
+                                label(for='b' + i)
+                                    img(src=questions[i].alternatives.b_img)
+                        .alternative
+                            input(type='radio' name='question' + i value='c' id='c' + i)
+                            if questions[i].alternatives.c
+                                label(for='c' + i)  c) #{questions[i].alternatives.c}
+                            else
+                                label(for='c' + i)
+                                    img(src=questions[i].alternatives.c_img)
+                        .alternative
+                            input(type='radio' name='question' + i value='d' id='d' + i)
+                            if questions[i].alternatives.d
+                                label(for='d' + i)  d) #{questions[i].alternatives.d}
+                            else
+                                label(for='d' + i)
+                                    img(src=questions[i].alternatives.d_img)
             -i++
-        button.btn-check Simulacro Completo
+        if !checking
+            button.btn-check Simulacro Completo
+        else
+            a(href="/simulador").btn-check--home Inicio
     script.
         var chr = document.querySelector('.chronometer');
         var questions = document.querySelector('.questions');

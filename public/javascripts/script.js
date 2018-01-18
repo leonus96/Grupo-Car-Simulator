@@ -65,6 +65,7 @@ function check(time=false) {
     var form = document.createElement("form");
     var element1 = document.createElement("input");
     var element2 = document.createElement("input");
+    var element3 = document.createElement("input");
 
     form.method = "POST";
     form.action = "/simulador/check";
@@ -75,8 +76,12 @@ function check(time=false) {
     element2.value= JSON.stringify(JSON.parse("[" + corrects + "]"));
     element2.name="reviewed";
 
+    element3.value= JSON.stringify(questionData);
+    element3.name="questionData";
+
     form.appendChild(element1);
     form.appendChild(element2);
+    form.appendChild(element3);
 
     document.body.appendChild(form);
 

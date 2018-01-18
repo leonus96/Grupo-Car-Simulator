@@ -124,6 +124,7 @@ class CategoriesController{
     }
 
     check(req, res, next){
+        let questionData = req.body.questionData;
         let rights = req.body.score;
         let reviewed = req.body.reviewed;
         let percentage = rights/40*100;
@@ -134,7 +135,26 @@ class CategoriesController{
                 rights: rights,
                 incorrect: incorrect,
                 percentage: percentage,
-                reviewed: JSON.parse(reviewed)
+                reviewed: JSON.parse(reviewed),
+                questionData: questionData
+            }
+        );
+    }
+
+    validate(req, res, next){
+        let questionData = req.body.questionData;
+        let check = req.body.check;
+        let reviewed = req.body.reviewed;
+
+        console.log(reviewed);
+        res.render(
+            'questions',
+            {
+                title: 'Corrección de preguntas',
+                questions: JSON.parse(questionData),
+                check: check,
+                reviewed: reviewed
+
             }
         );
     }

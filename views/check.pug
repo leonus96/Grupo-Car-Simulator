@@ -2,6 +2,7 @@ extends layout
 
 block content
     h2.result-title Resultados del simulacro.
+    //p #{JSON.stringify(questionData)}
     .result-summary
         if rights >= 35
             p.result-summary__approved Aprobado!
@@ -33,7 +34,7 @@ block content
                 - i++
 
     .navigation
-        a.navigation__btn(href="javascript:history.go(-1)") Corregir
+        button.navigation__btn(href="#" id="btn-check") Corregir
         a.navigation__btn.navigation__btn--green(href="/simulador") Inicio
     script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js')
     script.
@@ -72,5 +73,35 @@ block content
                 "responsive": true,
                 "maintainAspectRatio": false
             }
+        });
+
+        var btn_check = document.getElementById('btn-check');
+        btn_check.addEventListener("click", function () {
+            console.log("btn");
+            var form = document.createElement("form");
+            var element1 = document.createElement("input");
+            var element2 = document.createElement("input");
+            var element3 = document.createElement("input");
+
+            form.method = "POST";
+            form.action = "/simulador/validate";
+
+            element1.value = !{JSON.stringify(questionData)}
+            element1.name = "questionData";
+
+            element2.value = 'true';
+            element2.name = "check";
+            //var reviews = JSON.stringify(#{reviewed}).slice(1, 80); //.map(function (i) {return parseInt(i, 10);});
+            //reviews = JSON.parse("[" + reviews + "]");
+            element3.value = !{JSON.stringify(reviewed)}
+            element3.name = "reviewed";
+
+            form.appendChild(element1);
+            form.appendChild(element2);
+            form.appendChild(element3);
+
+            document.body.appendChild(form);
+
+            form.submit();
         });
 

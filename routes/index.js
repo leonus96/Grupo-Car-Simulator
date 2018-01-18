@@ -16,5 +16,6 @@ router
     .get('/aiiib', cc.getAiiib)
     .get('/aiiic', cc.getAiiic)
 
-    .post('/check', cc.check);
+    .post('/check', cc.check)
+    .post('/validate', cc.validate);
 module.exports = router;
