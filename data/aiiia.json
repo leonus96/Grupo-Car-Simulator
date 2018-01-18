@@ -4,13 +4,13 @@
       "id": 1,
       "matter": "Materias especificas",
       "theme": "Reglamento Nacional de Vehículos",
-      "statement": "",
+      "statement": "¿Cuál es un elemento, característica o dispositivo considerados como requisito técnico general?",
       "image": "",
       "alternatives": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Dispositivos de alumbrado y señalización óptica.",
+        "b": "Sistema de frenos",
+        "c": "Carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos o escarpines",
+        "d": "Todas las anteriores"
       },
       "response": "d"
     },
