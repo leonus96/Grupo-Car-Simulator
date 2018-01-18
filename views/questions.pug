@@ -16,16 +16,32 @@ block content
                 .question__alternatives
                     .alternative
                         input(type='radio' name='question' + i value='a' id='a' + i)
-                        label(for='a'+ i)  a) #{questions[i].alternatives.a}
+                        if questions[i].alternatives.a
+                            label(for='a'+ i)  a) #{questions[i].alternatives.a}
+                        else
+                            label(for='a'+ i)
+                                img(src=questions[i].alternatives.a_img)
                     .alternative
                         input(type='radio' name='question' + i value='b' id='b' + i)
-                        label(for='b'+ i)  b) #{questions[i].alternatives.b}
+                        if questions[i].alternatives.b
+                            label(for='a' + i)  b) #{questions[i].alternatives.b}
+                        else
+                            label(for='a' + i)
+                                img(src=questions[i].alternatives.b_img)
                     .alternative
                         input(type='radio' name='question' + i value='c' id='c' + i)
-                        label(for='c'+ i)  c) #{questions[i].alternatives.c}
+                        if questions[i].alternatives.c
+                            label(for='a' + i)  c) #{questions[i].alternatives.c}
+                        else
+                            label(for='a' + i)
+                                img(src=questions[i].alternatives.c_img)
                     .alternative
                         input(type='radio' name='question' + i value='d' id='d' + i)
-                        label(for='d'+ i)  d) #{questions[i].alternatives.d}
+                        if questions[i].alternatives.d
+                            label(for='a' + i)  d) #{questions[i].alternatives.d}
+                        else
+                            label(for='a' + i)
+                                img(src=questions[i].alternatives.d_img)
             -i++
         button.btn-check Simulacro Completo
     script.

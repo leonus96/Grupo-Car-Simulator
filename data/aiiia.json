@@ -1,0 +1,368 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": "d"
+    },
+    {
+      "id": 2,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿La instalación de las láminas retroreflectivas deben ser de acuerdo a las siguientes especificaciones?",
+      "image": "",
+      "alternatives": {
+        "a": "Las láminas deben ser fijadas horizontalmente en los laterales del vehículo y en la parte posterior, alternando los colores rojo y blanco.",
+        "b": "Las láminas deben colocarse a no menos de 300 mm y no más de 1,60 m sobre la superficie de la carretera.  ",
+        "c": "Las láminas podrán fijarse a la carrocería del vehículo por medio de diferentes elementos, tales como: remaches, tornillos, autoadhesivo o pegamento, asegurando la fijación permanente.  ",
+        "d": "Todas las anteriores"
+      },
+      "response": "d"
+    },
+    {
+      "id": 3,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Los vehículos de las categorías M2 destinados al servicio de transporte terrestre, M3 y N deben contar con láminas retroreflectivas?",
+      "image": "",
+      "alternatives": {
+        "a": "Solo los Vehículos M3.",
+        "b": "Si",
+        "c": "No es obligatorio.",
+        "d": "Ninguna de las anteriores"
+      },
+      "response": "b"
+    },
+    {
+      "id": 4,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Qué se entiende por neumático reencauchado?",
+      "image": "",
+      "alternatives": {
+        "a": "Neumático que luego de haberse desgastado, se vuelve operativo al efectuar nuevas ranuras en su banda de rodamiento.",
+        "b": "Neumático que luego de haberse desgastado, se vuelve operativo al adherirle una nueva banda de rodamiento.",
+        "c": "Que sin haberse desgastado, presenta ranuras y se le adhiere una banda de rodamiento.",
+        "d": "Ninguna de las anteriores"
+      },
+      "response": "b"
+    },
+    {
+      "id": 5,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿A qué se denomina Sistema bi-combustible y Sistema Dual?",
+      "image": "",
+      "alternatives": {
+        "a": "sistema bi-combustible (gasolina/GNV) o sistema dual (combustible líquido/GNV)",
+        "b": "sistema bi-combustible (Diésel/GNV) o sistema dual (combustible líquido/GNV)",
+        "c": "sistema bi-combustible (gasolina/GNV) o sistema dual (GLP/GNV)",
+        "d": "ninguna de las anteriores"
+      },
+      "response": "b"
+    },
+    {
+      "id": 6,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuántas ruedas de repuesto deben contar los vehículos de categoría M y N?",
+      "image": "",
+      "alternatives": {
+        "a": "2.",
+        "b": "1",
+        "c": "no es obligatorio.",
+        "d": "ninguna de las anteriores"
+      },
+      "response": "b"
+    },
+    {
+      "id": 7,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es una característica adicional para los vehículos de las categorías M, según el Reglamento Nacional de Vehículos?",
+      "image": "",
+      "alternatives": {
+        "a": "Retrovisores y Asientos del conductor.",
+        "b": "Guardafangos.",
+        "c": "Bocina de sonido uniforme y continua y Fórmula rodante.",
+        "d": "a y c son correctas"
+      },
+      "response": "d"
+    },
+    {
+      "id": 8,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es el documento que acredita ante SUNARP las modificaciones efectuadas a las características registrables de los vehículos?",
+      "image": "",
+      "alternatives": {
+        "a": "Certificado de Revisión Técnica Vehicular.",
+        "b": "Certificado de conformidad de Conversión y modificación",
+        "c": "Certificado de Conformidad de Modificación",
+        "d": "Declaración Jurada de conformidad de Modificación"
+      },
+      "response": "c"
+    },
+    {
+      "id": 9,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "La definición de: Complementarias a las luces altas utilizada para alumbrar una mayor distancia de la vía por delante del vehículo, corresponde a:",
+      "image": "",
+      "alternatives": {
+        "a": "Luz neblinero delantero.",
+        "b": "Luz baja",
+        "c": "Luz baja  ",
+        "d": "Luz de freno"
+      },
+      "response": "b"
+    },
+    {
+      "id": 10,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es una medida preventiva que puede aplicar la autoridad competente, según en el Reglamento Nacional de Vehículos?",
+      "image": "",
+      "alternatives": {
+        "a": "Retención de la licencia de conducir.",
+        "b": "Retención de mercancía.",
+        "c": "Internamiento del vehículo.",
+        "d": "a y c son correctas."
+      },
+      "response": "c"
+    },
+    {
+      "id": 11,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es la definición que corresponde a la carrocería, de acuerdo al Reglamento Nacional de Vehículos?",
+      "image": "",
+      "alternatives": {
+        "a": "Estructura básica del vehículo, compuesta por el bastidor, el tren motriz, suspensión, dirección, ejes, ruedas y otras partes mecánicas relacionadas",
+        "b": "Estructura que se instala sobre el chasis o estructura autoportante, para el transporte de personas y/o mercancías.",
+        "c": "Elemento mecánico que sirve de soporte del vehículo, aloja a las ruedas y permite la movilidad del mismo.",
+        "d": "Estructura básica del vehículo, que sirve de soporte del vehículo y se instala con el chasis."
+      },
+      "response": "b"
+    },
+    {
+      "id": 12,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "La definición: El conjunto de elementos que hacen posible que el vehículo pueda operarse usando combustible líquido y GNV simultáneamente) corresponde a:",
+      "image": "",
+      "alternatives": {
+        "a": "Sistema bi-combustible",
+        "b": "Sistema Dual",
+        "c": "Sistema Simultaneo",
+        "d": "ninguna de las anteriores"
+      },
+      "response": "b"
+    },
+    {
+      "id": 13,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Qué porcentaje como mínimo de transparencia debe tener los parabrisas de vidrio de seguridad?",
+      "image": "",
+      "alternatives": {
+        "a": "50%",
+        "b": "70%",
+        "c": "80%",
+        "d": "60%"
+      },
+      "response": "b"
+    },
+    {
+      "id": 14,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Qué porcentaje como máximo de oscurecimiento debe tener los parabrisas de vidrio de seguridad?",
+      "image": "",
+      "alternatives": {
+        "a": "40%",
+        "b": "20%",
+        "c": "30%",
+        "d": "50%"
+      },
+      "response": "c"
+    },
+    {
+      "id": 15,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿De qué categoría son los Vehículos de mas de ocho asientos, sin contar el asiento del conductor y peso bruto vehicular de 5 toneladas o menos?",
+      "image": "",
+      "alternatives": {
+        "a": "M2",
+        "b": "M3",
+        "c": "N3",
+        "d": "M1"
+      },
+      "response": "a"
+    },
+    {
+      "id": 16,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿A cuál clase pertenecen los vehículos construidos exclusivamente para el transporte de pasajeros sentados?",
+      "image": "",
+      "alternatives": {
+        "a": "Clase I",
+        "b": "Clase II",
+        "c": "Clase III",
+        "d": "Ninguna de las anteriores"
+      },
+      "response": "c"
+    },
+    {
+      "id": 17,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿A qué categoría pertenecen los vehículos de mas de ocho asientos, sin contar el asiento del conductor y peso bruto vehicular de más de 5 toneladas?",
+      "image": "",
+      "alternatives": {
+        "a": "M1",
+        "b": "M3",
+        "c": "M2",
+        "d": "N3"
+      },
+      "response": "b"
+    },
+    {
+      "id": 18,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿A qué se denomina un ómnibus bi-articulado?",
+      "image": "",
+      "alternatives": {
+        "a": "Vehículo compuesto de tres secciones rígidas unidas entre sí por dos juntas articuladas permitiendo libre paso entre las secciones.",
+        "b": "Vehículo compuesto de dos secciones rígidas unidas entre sí por una junta articulada permitiendo libre paso entre una sección y otra.",
+        "c": "Vehículo con la carrocería monocasco autoportante a la cual se fija el conjunto direccional en la parte delantera y el conjunto del tren motriz en la parte posterior",
+        "d": "Ninguna de la anteriores"
+      },
+      "response": "a"
+    },
+    {
+      "id": 19,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Es obligatorio el Sistema de Freno Auxiliar para los vehículos de categoría M2 y M3?",
+      "image": "",
+      "alternatives": {
+        "a": "Si",
+        "b": "No, es opcional para ambos",
+        "c": "Para los vehículos de categoría M2 es opcional y para los de categoría M3 es obligatorio",
+        "d": "No se aplica para esas categorías"
+      },
+      "response": "c"
+    },
+    {
+      "id": 20,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Qué cantidad mínima de puertas de servicio deben tener los vehículos que se destinen al servicio de transporte escolar?",
+      "image": "",
+      "alternatives": {
+        "a": "1",
+        "b": "2",
+        "c": "Depende de la categoría M2 y M3",
+        "d": "3"
+      },
+      "response": "<"
+    },
+    {
+      "id": 21,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Qué cantidad mínima de salidas de emergencia deben tener los vehículos de categoría M2 y M3 que se destinen al servicio de transporte escolar?",
+      "image": "",
+      "alternatives": {
+        "a": "2 salidas de emergencia para ambas categorías",
+        "b": "2 salidas de emergencia para la categoría M2 y 3 salidas de emergencia para la categoría M3",
+        "c": "1 Salida de emergencia para la categoría M2 y 2 salidas de emergencia para la categoría M3",
+        "d": "1 Salida de emergencia como mínimo para ambas categorías"
+      },
+      "response": "b"
+    },
+    {
+      "id": 22,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es la exigencia de la tercera luz de freno?",
+      "image": "",
+      "alternatives": {
+        "a": "opcional",
+        "b": "obligatoria",
+        "c": "No aplica a categorías M",
+        "d": "Ninguna de las anteriores"
+      },
+      "response": "a"
+    },
+    {
+      "id": 23,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿Cuál es la potencia mínima de la luz baja?",
+      "image": "",
+      "alternatives": {
+        "a": "20W",
+        "b": "10W",
+        "c": "25W",
+        "d": "55W"
+      },
+      "response": "c"
+    },
+    {
+      "id": 24,
+      "matter": "Materias especificas",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": ""
+    },
+    {
+      "id": 25,
+      "matter": "Materias especificas",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": ""
+    },
+    {
+      "id": 26,
+      "matter": "Materias especificas",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
+      "statement": "",
+      "image": "",
+      "alternatives": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "response": ""
+    }
+  ]
+}
