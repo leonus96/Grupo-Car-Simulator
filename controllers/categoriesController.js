@@ -63,20 +63,18 @@ class CategoriesController{
     }
 
     getAiiia(req, res, next){
-        let data_g = require('../data/generales');
-        let data_aiiia = require('../data/aiiia');
-        let array_g = getList(data_g.questions.length);
-        let array_aiiia = getList(data_aiiia.questions.length);
-        let newRandom_g = randomFromListGenerator(array_g);
-        let newRandom_aiiia = randomFromListGenerator(array_aiiia);
+        let data = require('../data/ai/aiiia');
+        let array = getList(20);
+        let newRandom = randomFromListGenerator(array);
         let questions = {
             questions: []
         };
-        for(let i = 0; i < 20; i++)
-            questions.questions.push(data_g.questions[newRandom_g()])
-        for(let i = 0; i < 20; i++)
-            questions.questions.push(data_aiiia.questions[newRandom_aiiia()])
-        console.log(questions.questions.length);
+        for(let i = 0; i < 10; i++){
+            questions.questions.push(data.questions[newRandom()])
+            //console.log(newRandom());
+        }
+        console.log(questions.questions[0]);
+
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIIa",
             questions: questions.questions
