@@ -1176,7 +1176,7 @@
         "c": "Solo cuando no tiene carga pesada",
         "d": "Depende de los ejes o conjunto de ejes del vehículo"
       },
-      "response": ""
+      "response": "b"
     },
     {
       "id": 82,
@@ -1442,7 +1442,7 @@
         "c": "40% de su monto.",
         "d": "50% de su monto."
       },
-      "response": ""
+      "response": "d"
     }
   ]
 }

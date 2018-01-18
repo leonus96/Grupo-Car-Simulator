@@ -10,7 +10,7 @@
         "a": "Dispositivos de alumbrado y señalización óptica.",
         "b": "Sistema de frenos",
         "c": "Carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos o escarpines",
-        "d": "Todas las anteriores"
+        "d": ""
       },
       "response": "d"
     },
@@ -913,13 +913,13 @@
       "id": 66,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
+      "statement": "¿Pueden viajar dos personas en un mismo asiento?",
       "image": "",
       "alternatives": {
-        "a": "Dicha restricción es meramente informativa",
-        "b": "Es una obligación cumplir con la restricción.",
-        "c": "Incumplir la restricción no genera un riesgo para la seguridad vial",
-        "d": ""
+        "a": "Nunca se da este supuesto.",
+        "b": "Sí, cuando una de ellas es un menor de cinco (5) años de edad.",
+        "c": "Sí, cuando una de ellas es un menor de tres (3) años de edad.",
+        "d": "Ninguna de las anteriores."
       },
       "response": ""
     },
@@ -927,15 +927,15 @@
       "id": 67,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
+      "statement": "En el servicio de transporte estándar de ámbito provincial, está permitido:",
       "image": "",
       "alternatives": {
-        "a": "Dicha restricción es meramente informativa.",
-        "b": "Es una obligación cumplir con la restricción",
-        "c": "Incumplir la restricción no genera un riesgo para la seguridad vial. ",
-        "d": " Ninguna de las alternativas es correcta."
+        "a": "El viaje de personas sentadas y de pie, respetando la capacidad prevista por el fabricante.",
+        "b": "El transporte de mercancías correctamente estibadas",
+        "c": "El viaje de personas sentadas y de pie, en el lugar donde fácilmente puedan ser ubicadas",
+        "d": "Ninguna de las anteriores."
       },
-      "response": "b"
+      "response": "a"
     },
     {
       "id": 68,

@@ -767,7 +767,7 @@
         "c": "Las actas de inspecciones, constataciones, ocurrencias, formularios y similares levantados por otras instituciones en el ejercicio de sus funciones.",
         "d": "Todas las anteriores."
       },
-      "response": ""
+      "response": "d"
     },
     {
       "id": 56,
@@ -795,7 +795,7 @@
         "c": "Transportista",
         "d": "La a) y b) son correctas"
       },
-      "response": ""
+      "response": "c"
     },
     {
       "id": 58,
@@ -977,7 +977,7 @@
         "c": "bomba  ",
         "d": "varilla"
       },
-      "response": ""
+      "response": "d"
     }
   ]
 }
