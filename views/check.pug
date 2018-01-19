@@ -2,7 +2,7 @@ extends layout
 
 block content
     h2.result-title Resultados del simulacro.
-    //p #{JSON.stringify(questionData)}
+    //p #{JSON.stringify(responses)}
     .result-summary
         if rights >= 35
             p.result-summary__approved Aprobado!
@@ -14,7 +14,7 @@ block content
             .result-body__item__number #{rights}
         .result-body__item
             .result-body__item__label Porcentaje de acierto
-            .result-body__item__number #{percentage} %
+            .result-body__item__number #{percentage.toString().slice(0, 4)} %
         .result-body__item
             canvas(id="result-bar" width="500" height="400")
     .result-reviewed
@@ -79,11 +79,11 @@ block content
 
         var btn_check = document.getElementById('btn-check');
         btn_check.addEventListener("click", function () {
-            console.log("btn");
             var form = document.createElement("form");
             var element1 = document.createElement("input");
             var element2 = document.createElement("input");
             var element3 = document.createElement("input");
+            var element4 = document.createElement("input");
 
             form.method = "POST";
             form.action = "/simulador/validate";
@@ -95,12 +95,18 @@ block content
             element2.name = "check";
             //var reviews = JSON.stringify(#{reviewed}).slice(1, 80); //.map(function (i) {return parseInt(i, 10);});
             //reviews = JSON.parse("[" + reviews + "]");
-            element3.value = !{JSON.stringify(reviewed)}
+            //console.log(!{reviewed});
+            element3.value = !{JSON.stringify(reviewed)};
             element3.name = "reviewed";
+
+            element4.value = !{JSON.stringify(responses)}
+            element4.name = "responses";
+
 
             form.appendChild(element1);
             form.appendChild(element2);
             form.appendChild(element3);
+            form.appendChild(element4)
 
             document.body.appendChild(form);
 

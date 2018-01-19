@@ -39,12 +39,16 @@ function stop() {
 /* Check */
 function check(time=false) {
     var corrects = Array.apply(null, Array(40)).map(Number.prototype.valueOf,0);
+    var rptas = Array.apply(null, Array(40)).map(String.prototype.valueOf,'n');
     for(var i = 0; i<40; i++){
         if(document.querySelector('input[name="question' + i + '"]:checked')){
             resolving++;
             var q_name = document.querySelector('input[name="question' + i + '"]:checked').id;
             var q_alternative = q_name.substring(0, 1);
             var q_number = q_name.substring(1, 3);
+
+            rptas[i] = q_alternative.toString();
+
             if(questionData[q_number].response == q_alternative){
                 score++;
                 corrects[i] = 1;
@@ -58,6 +62,8 @@ function check(time=false) {
             'Preguntas resueltas: ' + resolving + '\n' +
             '¿Corregir de todas formas  ?',
         ) == false){
+            resolving = 0;
+            score = 0;
             return;
         }
     }
@@ -66,6 +72,7 @@ function check(time=false) {
     var element1 = document.createElement("input");
     var element2 = document.createElement("input");
     var element3 = document.createElement("input");
+    var element4 = document.createElement("input");
 
     form.method = "POST";
     form.action = "/simulador/check";
@@ -79,9 +86,13 @@ function check(time=false) {
     element3.value= JSON.stringify(questionData);
     element3.name="questionData";
 
+    element4.value = JSON.stringify(rptas.join("<#>"));
+    element4.name= "responses";
+
     form.appendChild(element1);
     form.appendChild(element2);
     form.appendChild(element3);
+    form.appendChild(element4);
 
     document.body.appendChild(form);
 

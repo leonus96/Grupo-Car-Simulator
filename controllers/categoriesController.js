@@ -12,7 +12,6 @@ class CategoriesController{
             questions.questions.push(data.questions[newRandom()])
             //console.log(newRandom());
         }
-        console.log(questions.questions[0]);
 
         res.render('questions', {
            title: "Simulador de examen: Categoría AI",
@@ -34,7 +33,6 @@ class CategoriesController{
             questions.questions.push(data_g.questions[newRandom_g()])
         for(let i = 0; i < 20; i++)
             questions.questions.push(data_aiia.questions[newRandom_aiia()])
-        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIa",
             questions: questions.questions
@@ -55,7 +53,6 @@ class CategoriesController{
             questions.questions.push(data_g.questions[newRandom_g()])
         for(let i = 0; i < 20; i++)
             questions.questions.push(data_aiib.questions[newRandom_aiib()])
-        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIb",
             questions: questions.questions
@@ -76,7 +73,6 @@ class CategoriesController{
             questions.questions.push(data_g.questions[newRandom_g()])
         for(let i = 0; i < 20; i++)
             questions.questions.push(data_aiiia.questions[newRandom_aiiia()])
-        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIb",
             questions: questions.questions
@@ -94,7 +90,6 @@ class CategoriesController{
             questions.questions.push(data.questions[newRandom()])
             //console.log(newRandom());
         }
-        console.log(questions.questions[0]);
 
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIIb",
@@ -116,7 +111,6 @@ class CategoriesController{
             questions.questions.push(data_g.questions[newRandom_g()])
         for(let i = 0; i < 20; i++)
             questions.questions.push(data_aiiia.questions[newRandom_aiiia()])
-        console.log(questions.questions.length);
         res.render('questions', {
             title: "Simulador de examen: Categoría AIIb",
             questions: questions.questions
@@ -124,11 +118,13 @@ class CategoriesController{
     }
 
     check(req, res, next){
-        let questionData = req.body.questionData;
-        let rights = req.body.score;
-        let reviewed = req.body.reviewed;
-        let percentage = rights/40*100;
-        let incorrect = 40 - rights;
+        let questionData = req.body.questionData,
+            responses = req.body.responses,
+            rights = req.body.score,
+            reviewed = req.body.reviewed,
+            percentage = rights/40*100,
+            incorrect = 40 - rights;
+        //console.log(responses);
         res.render(
             'check',
             {
@@ -136,7 +132,8 @@ class CategoriesController{
                 incorrect: incorrect,
                 percentage: percentage,
                 reviewed: JSON.parse(reviewed),
-                questionData: questionData
+                questionData: questionData,
+                responses: responses
             }
         );
     }
@@ -145,15 +142,18 @@ class CategoriesController{
         let questionData = req.body.questionData;
         let check = req.body.check;
         let reviewed = req.body.reviewed;
+        let responses = req.body.responses;
 
-        console.log(reviewed);
+        console.log(responses);
+
         res.render(
             'questions',
             {
                 title: 'Corrección de preguntas',
                 questions: JSON.parse(questionData),
                 check: check,
-                reviewed: reviewed
+                reviewed: reviewed,
+                responses: responses
 
             }
         );

@@ -5,6 +5,7 @@ block content
     if checking
         - var reviews = JSON.stringify(reviewed);
         - reviews = JSON.parse(reviews).split(',');
+        - rptas = responses.split('<#>');
     else
         include partials/chronometer
     script.
@@ -13,7 +14,6 @@ block content
         - var i = 0
         while i < questions.length
             if checking
-                //p #{reviews[2]}
                 if reviews[i] == "1"
                     .question.question--correct
                         p.question__theme #{questions[i].theme}
@@ -23,32 +23,44 @@ block content
                                 img(src=questions[i].image)
                         .question__alternatives
                             .alternative
-                                input(type='radio' name='question' + i value='a' id='a' + i)
+                                if rptas[i].replace('"', '') == 'a'
+                                    input(type='radio' name='question' + i value='a' id='a' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='a' id='a' + i)
                                 if questions[i].alternatives.a
                                     label(for='a' + i)  a) #{questions[i].alternatives.a}
                                 else
-                                    label(for='a' + i)
+                                    label(for='a' + i )
                                         img(src=questions[i].alternatives.a_img)
                             .alternative
-                                input(type='radio' name='question' + i value='b' id='b' + i)
+                                if rptas[i].replace('"', '') == 'b'
+                                    input(type='radio' name='question' + i value='b' id='b' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='b' id='b' + i)
                                 if questions[i].alternatives.b
                                     label(for='b' + i)  b) #{questions[i].alternatives.b}
                                 else
-                                    label(for='b' + i)
+                                    label(for='b' + i )
                                         img(src=questions[i].alternatives.b_img)
                             .alternative
-                                input(type='radio' name='question' + i value='c' id='c' + i)
+                                if rptas[i].replace('"', '') == 'c'
+                                    input(type='radio' name='question' + i value='c' id='c' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='c' id='c' + i)
                                 if questions[i].alternatives.c
                                     label(for='c' + i)  c) #{questions[i].alternatives.c}
                                 else
-                                    label(for='c' + i)
+                                    label(for='c' + i )
                                         img(src=questions[i].alternatives.c_img)
                             .alternative
-                                input(type='radio' name='question' + i value='d' id='d' + i)
+                                if rptas[i].replace('"', '') == 'd'
+                                    input(type='radio' name='question' + i value='d' id='d' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='d' id='d' + i)
                                 if questions[i].alternatives.d
                                     label(for='d' + i)  d) #{questions[i].alternatives.d}
                                 else
-                                    label(for='d' + i)
+                                    label(for='bd' + i )
                                         img(src=questions[i].alternatives.d_img)
                         .question__response
                             p Respuesta correcta: #{questions[i].response}
@@ -61,32 +73,44 @@ block content
                                 img(src=questions[i].image)
                         .question__alternatives
                             .alternative
-                                input(type='radio' name='question' + i value='a' id='a' + i)
+                                if rptas[i].replace('"', '') == 'a'
+                                    input(type='radio' name='question' + i value='a' id='a' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='a' id='a' + i)
                                 if questions[i].alternatives.a
                                     label(for='a' + i)  a) #{questions[i].alternatives.a}
                                 else
-                                    label(for='a' + i)
+                                    label(for='a' + i )
                                         img(src=questions[i].alternatives.a_img)
                             .alternative
-                                input(type='radio' name='question' + i value='b' id='b' + i)
+                                if rptas[i].replace('"', '') == 'b'
+                                    input(type='radio' name='question' + i value='b' id='b' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='b' id='b' + i)
                                 if questions[i].alternatives.b
                                     label(for='b' + i)  b) #{questions[i].alternatives.b}
                                 else
-                                    label(for='b' + i)
+                                    label(for='b' + i )
                                         img(src=questions[i].alternatives.b_img)
                             .alternative
-                                input(type='radio' name='question' + i value='c' id='c' + i)
+                                if rptas[i].replace('"', '') == 'c'
+                                    input(type='radio' name='question' + i value='c' id='c' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='c' id='c' + i)
                                 if questions[i].alternatives.c
                                     label(for='c' + i)  c) #{questions[i].alternatives.c}
                                 else
-                                    label(for='c' + i)
+                                    label(for='c' + i )
                                         img(src=questions[i].alternatives.c_img)
                             .alternative
-                                input(type='radio' name='question' + i value='d' id='d' + i)
+                                if rptas[i].replace('"', '') == 'd'
+                                    input(type='radio' name='question' + i value='d' id='d' + i checked)
+                                else
+                                    input(type='radio' name='question' + i value='d' id='d' + i)
                                 if questions[i].alternatives.d
                                     label(for='d' + i)  d) #{questions[i].alternatives.d}
                                 else
-                                    label(for='d' + i)
+                                    label(for='bd' + i )
                                         img(src=questions[i].alternatives.d_img)
                         .question__response
                             p Respuesta correcta: #{questions[i].response}
@@ -134,12 +158,15 @@ block content
     script.
         var chr = document.querySelector('.chronometer');
         var questions = document.querySelector('.questions');
-        window.document.body.onscroll = function () {
-            if((window.pageYOffset || document.documentElement.scrollTop) > 80){
-                chr.classList.add('chronometer--sticky');
-                questions.style.marginTop = "80px";
-            }else{
-                chr.classList.remove('chronometer--sticky');
-                questions.style.marginTop = "0px";
+        if(chr){
+            window.document.body.onscroll = function () {
+                if ((window.pageYOffset || document.documentElement.scrollTop) > 80) {
+                    chr.classList.add('chronometer--sticky');
+                    questions.style.marginTop = "80px";
+                } else {
+                    chr.classList.remove('chronometer--sticky');
+                    questions.style.marginTop = "0px";
+                }
             }
         }
+
