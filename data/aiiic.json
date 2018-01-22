@@ -68,7 +68,7 @@
         "c": "Transporte de materiales y residuos peligros clase 2 y 9",
         "d": "Todas las anteriores"
       },
-      "response": ""
+      "response": "a"
     },
     {
       "id": 6,
@@ -138,7 +138,7 @@
         "c": "La certificación de su licencia de conducir",
         "d": "Su licencia de conducir vigente de la categoría que corresponda al vehículo que conduce y su licencia de conducir de categoría especial."
       },
-      "response": ""
+      "response": "d"
     },
     {
       "id": 11,
