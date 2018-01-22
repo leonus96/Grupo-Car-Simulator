@@ -4,12 +4,12 @@
       "id": 1,
       "matter": "Materias especificas",
       "theme": "Reglamento Nacional de Vehículos",
-      "statement": "¿Cuál es un elemento, característica o dispositivo considerados como requisito técnico general?",
+      "statement": "",
       "image": "",
       "alternatives": {
-        "a": "Dispositivos de alumbrado y señalización óptica.",
-        "b": "Sistema de frenos",
-        "c": "Carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos o escarpines",
+        "a": "",
+        "b": "",
+        "c": "",
         "d": ""
       },
       "response": "d"
@@ -120,7 +120,7 @@
       "image": "",
       "alternatives": {
         "a": "Luz neblinero delantero.",
-        "b": "Luz baja",
+        "b": "Luz de largo alcance",
         "c": "Luz baja  ",
         "d": "Luz de freno"
       },
@@ -269,7 +269,7 @@
     {
       "id": 20,
       "matter": "Materias especificas",
-      "theme": "Reglamento Nacional de Vehículos",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "statement": "¿Qué cantidad mínima de puertas de servicio deben tener los vehículos que se destinen al servicio de transporte escolar?",
       "image": "",
       "alternatives": {
@@ -283,7 +283,7 @@
     {
       "id": 21,
       "matter": "Materias especificas",
-      "theme": "Reglamento Nacional de Vehículos",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "statement": "¿Qué cantidad mínima de salidas de emergencia deben tener los vehículos de categoría M2 y M3 que se destinen al servicio de transporte escolar?",
       "image": "",
       "alternatives": {
@@ -297,7 +297,7 @@
     {
       "id": 22,
       "matter": "Materias especificas",
-      "theme": "Reglamento Nacional de Vehículos",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "statement": "¿Cuál es la exigencia de la tercera luz de freno?",
       "image": "",
       "alternatives": {
@@ -311,14 +311,14 @@
     {
       "id": 23,
       "matter": "Materias especificas",
-      "theme": "Reglamento Nacional de Vehículos",
+      "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
       "statement": "¿Cuál es la potencia mínima de la luz baja?",
       "image": "",
       "alternatives": {
         "a": "20W",
         "b": "10W",
-        "c": "25W",
-        "d": "55W"
+        "c": "25w",
+        "d": "55w"
       },
       "response": "c"
     },
@@ -326,41 +326,41 @@
       "id": 24,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor? ",
+      "statement": "La licencia de conducir de Clase A- Categoría III A tendrá una vigencia de…..",
       "image": "",
       "alternatives": {
-        "a": "Cualquier tipo de seguro de accidentes personales que comercialicen las empresas de seguro.",
-        "b": "Cualquier tipo de seguro vehicular, siempre que cubra a los ocupantes del vehículo y terceros fectados por un accidente de tránsito.",
-        "c": "El Seguro Obligatorio de Accidentes de Tránsito - SOAT.",
-        "d": "No es obligatorio contar con un seguro."
+        "a": "3 años",
+        "b": "5 años",
+        "c": "8 años",
+        "d": "2 años"
       },
-      "response": "c"
+      "response": "a"
     },
     {
       "id": 25,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
+      "statement": "¿Cuál es la antigüedad mínima contando con licencia de Clase A- Categoría II B que se requiere para obtener la licencia de Clase A categoría III A por recategorización?",
       "image": "",
       "alternatives": {
-        "a": "Cuando emita señales visibles.",
-        "b": "Cuando emita señales audibles.",
-        "c": "Cuando emita señales audibles y visibles.",
-        "d": "Ninguna de las alternativas es correcta."
+        "a": "2 años.",
+        "b": "4 años.",
+        "c": "5 años",
+        "d": "No existe antigüedad mínima"
       },
-      "response": "c"
+      "response": "a"
     },
     {
       "id": 26,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
+      "statement": "La licencia de conducir de clase A categoría III A permite conducir los vehículos señalados en la categoría:",
       "image": "",
       "alternatives": {
-        "a": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los escolares.",
-        "b": "Adelantar por el lado izquierdo, pero con precaución.",
-        "c": "Tocar el claxon para alertar que está pasando.",
-        "d": "Adelantar muy despacio."
+        "a": "I, II A y II B",
+        "b": "III",
+        "c": "IV",
+        "d": "I y II B"
       },
       "response": "a"
     },
@@ -368,139 +368,139 @@
       "id": 27,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
+      "statement": "¿Que permite controlar el GPS instalado en un bus interprovincial?",
       "image": "",
       "alternatives": {
-        "a": "a presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
-        "b": "Zona de obras por reparación en la calzada.",
-        "c": "Que el vehículo que lo enfrenta debe detenerse.",
-        "d": "a y c son correctas."
+        "a": "El tiempo de conducción",
+        "b": "la distancia recorrida",
+        "c": "la posición del bus",
+        "d": "la velocidad"
       },
-      "response": "a"
+      "response": "d"
     },
     {
       "id": 28,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "La siguiente señal vertical reglamentaria P-22C indica que:",
+      "statement": "Señale cual no es una función de las hendiduras de la banda de rodadura de un neumático",
       "image": "",
       "alternatives": {
-        "a": "Está permitido adelantar.",
-        "b": "Se aproxima un carril adicional.",
-        "c": "Está permitido cambiar de carril.",
-        "d": "Ninguna de las alternativas es correcta."
+        "a": "Permite, en caso de lluvia, esparcir hacia afuera el paso del agua",
+        "b": "facilitar la dispersión de calor acumulado durante la rotación",
+        "c": "brinda la flexibilidad adecuada para permitir una eficaz adherencia",
+        "d": "disminuye la presión de los neumáticos"
       },
-      "response": "b"
+      "response": "d"
     },
     {
       "id": 29,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Las luces intermitentes de emergencia del vehículo deben utilizarse obligatoriamente:",
+      "statement": "¿Con que nombre se conoce al elemento que no deja pasar el aceite del carter a la cámara de combustión?",
       "image": "",
       "alternatives": {
-        "a": "Para girar en las intersecciones y para advertir los cambios de carril.",
-        "b": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras riesgosas.",
-        "c": "Durante toda la circulación del vehículo.",
-        "d": "En cada intersección."
+        "a": "bulón",
+        "b": "retén",
+        "c": "anillo",
+        "d": "lumbrera"
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 30,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
+      "statement": "¿Que elemento del sistema de suspensión no corresponde para ser usado en semirremolques?",
       "image": "",
       "alternatives": {
-        "a": "No.",
-        "b": "Si.",
-        "c": "Depende de la intersección.",
-        "d": "No se encuentra regulado en el reglamento."
+        "a": "Muelles de hoja",
+        "b": "neumática",
+        "c": "resorte",
+        "d": "brazo de torsión"
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 31,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
+      "statement": "¿A que se llama 'capacidad' del eje de un vehículo?",
       "image": "",
       "alternatives": {
-        "a": "Disminuir su velocidad y cederle el paso a los vehículos que circulan por la transversal.",
-        "b": "Disminuir su velocidad y pasar con cuidado.",
-        "c": "Sobre parar y pasar rápidamente.",
-        "d": "Parar por completo, ceder el paso a los usuarios que tengan preferencia y luego continuar con recaución."
+        "a": "Es la carga máxima permitida que puede soportar el eje de un vehículo",
+        "b": "Es la carga máxima que puede soportar el eje de un vehículo",
+        "c": "La capacidad de carga de todos los ejes de un vehículo",
+        "d": "La carga máxima incluyendo el peso del vehículo"
       },
-      "response": "d"
+      "response": "a"
     },
     {
       "id": 32,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
+      "statement": "Las sanciones por las infracciones al servicio de transporte se encuentran comprendidas en:",
       "image": "",
       "alternatives": {
-        "a": "No hay diferencia, se usan indistintamente.",
-        "b": "La señal P-2A se utiliza en situaciones de mayor riesgo.",
-        "c": "La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.",
-        "d": "La señal P-2A advierte la presencia de curva pronunciada a la derecha mientras que la P-1A advierte la presencia de curva suave a la derecha."
+        "a": "El Reglamento Nacional de Administración de Transporte.",
+        "b": "El Texto Único Ordenado del Reglamento Nacional de Tránsito - Código de Tránsito.",
+        "c": "El Reglamento Nacional de Inspecciones Técnicas Vehiculares.",
+        "d": "Todas las anteriores."
       },
-      "response": "c"
+      "response": "a"
     },
     {
       "id": 33,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Qué indica la señal R-30F?",
+      "statement": "Con relación a las obligaciones del conductor del servicio de transporte terrestre. Marque la alternativa incorrecta:",
       "image": "",
       "alternatives": {
-        "a": "Tener precaución con vehículos lentos.",
-        "b": "Regula la velocidad máxima permitida en curvas.",
-        "c": "Regula la velocidad máxima en zonas rurales.",
-        "d": "No se encuentra regulada en el reglamento."
+        "a": "Debe ser titular de una licencia de conducir de la clase y categoría que corresponda al vehículo que conduce.",
+        "b": "Debe portar su licencia de conducir vigente, así como la documentación del vehículo.",
+        "c": "Debe conducir solo vehículos habilitados por la autoridad competente.",
+        "d": "Puede oponerse a la labor de supervisión y fiscalización de la autoridad competente."
       },
-      "response": "b"
+      "response": "d"
     },
     {
       "id": 34,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Qué señal debe utilizar el conductor para disminuir la velocidad o detener el vehículo cuando está en marcha?",
+      "statement": "La edad máxima para conducir vehículos destinados al servicio de transporte terrestre es de:",
       "image": "",
       "alternatives": {
-        "a": "Luces direccionales.",
-        "b": "Solo el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo.",
-        "c": "Luces intermitentes y, en caso de fuerza mayor, utilizar el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, haciendo ángulo recto con el brazo.",
-        "d": " Luces bajas."
+        "a": "55 años.",
+        "b": "60 años.",
+        "c": "65 años.",
+        "d": "70 años."
       },
-      "response": "c"
+      "response": "d"
     },
     {
       "id": 35,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si dos vehículos se aproximan simultáneamente a una intersección no regulada (sin señalización) procedentes de vías diferentes, ¿quién tiene preferencia de paso?",
+      "statement": "En el servicio de transporte de personas de ámbito nacional, la habilitación vehicular permite que un vehículo pueda ser empleado en:",
       "image": "",
       "alternatives": {
-        "a": "Cualquiera de los dos",
-        "b": "El que se aproxime por la derecha del otro. ",
-        "c": "El que se aproxime por la izquierda del otro.",
-        "d": " El que haga sonar la bocina primero. "
+        "a": "En cualquiera de las rutas autorizadas del transportista a nivel nacional.",
+        "b": "En cualquiera de las rutas a nivel nacional.",
+        "c": "En toda la Red Vial Nacional.",
+        "d": "Todas las anteriores."
       },
-      "response": "b"
+      "response": "a"
     },
     {
       "id": 36,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "En una intersección no regulada (sin señalización) tiene preferencia de paso: ",
+      "statement": "¿Cuál de los siguientes servicios no corresponde al servicio de transporte especial de personas?",
       "image": "",
       "alternatives": {
-        "a": "El vehículo que ingresó primero a la intersección.",
-        "b": " El vehículo que haga sonar la bocina primero.",
-        "c": "El vehículo que haga cambio de luces primero",
-        "d": "Cualquier vehículo"
+        "a": "Diferenciado.",
+        "b": "Turístico.",
+        "c": "De trabajadores.",
+        "d": "De estudiantes."
       },
       "response": "a"
     },
@@ -508,41 +508,41 @@
       "id": 37,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "En una rotonda, tiene prioridad de paso el vehículo que: ",
+      "statement": "Si un conductor atenta contra la integridad física del inspector durante la realización de sus funciones, será sancionado con:",
       "image": "",
       "alternatives": {
-        "a": "Quiere ingresar a la rotonda",
-        "b": "Circula por ella. ",
-        "c": "Acelera primero. ",
-        "d": "Hace sonar la bocina."
+        "a": "Cancelación de licencia de conducir e inhabilitación para obtener nueva licencia por tres (3) años.",
+        "b": "Suspensión de la licencia de conducir por tres (3) años.",
+        "c": "Cancelación de la licencia de conducir e inhabilitación definitiva para obtener nueva licencia. Multa de 0.5 UIT.",
+        "d": "Cancelación de la licencia de conducir por un (1) año e inhabilitación definitiva para obtener nueva licencia. Multa de 1 UIT."
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 38,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la _________ retornando el vehículo después de la maniobra a su carril original.",
+      "statement": "En el servicio de transporte la vigencia de la habilitación del conductor es ….y de renovación automática una vez acreditada la vigencia de la licencia de conducir de la categoría correspondiente al vehículo habilitado",
       "image": "",
       "alternatives": {
-        "a": " Derecha.",
-        "b": " Izquierda. ",
-        "c": " Berma",
-        "d": " Por la derecha o izquierda. "
+        "a": "Anual.",
+        "b": "cada dos años.",
+        "c": "Cada cinco años.",
+        "d": "Ninguna de las anteriores"
       },
-      "response": "b"
+      "response": "a"
     },
     {
       "id": 39,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si un conductor está tomando medicamentos y por ello siente sueño ¿qué debe hacer? ",
+      "statement": "¿A partir de qué edad el conductor del servicio de transporte deberá rendir y aprobar los exámenes médicos semestrales que establezca la Dirección General de Transporte Terrestre (DGTT)?",
       "image": "",
       "alternatives": {
-        "a": "Manejar normalmente.",
-        "b": "Manejar despacio.",
-        "c": "Abstenerse de manejar",
-        "d": " Manejar con un copiloto."
+        "a": "60 años.",
+        "b": "55 años.",
+        "c": "65 años.",
+        "d": "No existe dicho exigencia en la norma."
       },
       "response": "c"
     },
@@ -550,41 +550,41 @@
       "id": 40,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
+      "statement": "Si un presunto infractor paga voluntariamente dentro de los cinco días hábiles de levantada el acta de control, la multa que corresponda a la infracción imputada, ésta será reducida en:",
       "image": "",
       "alternatives": {
-        "a": "Documento de identidad, SOAT vigente (puede ser virtual) y tarjeta de identificación vehicular.",
-        "b": "Certificado de Inspección Técnica Vehicular y contrato de compraventa del vehículo",
-        "c": "Contrato de compraventa del vehículo.",
-        "d": "Todas las alternativas son correctas."
+        "a": "20% de su monto.",
+        "b": "30% de su monto.",
+        "c": "40% de su monto.",
+        "d": "50% de su monto."
       },
-      "response": "a"
+      "response": "d"
     },
     {
       "id": 41,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "En los tramos de una vía con pendiente pronunciada, que permite la circulación de un solo vehículo, se debe de tener en cuenta que el vehículo que asciende respecto al vehículo que desciende:",
+      "statement": "Cuando hablamos del «servicio de transporte especial de ámbito provincial, prestado en vehículos M1 de la clasificación vehicular, que tiene por objeto el traslado de personas desde un punto de origen hasta un punto de destino señalado por quien lo contrata.», nos estamos refiriendo al:",
       "image": "",
       "alternatives": {
-        "a": "No tiene preferencia de paso. ",
-        "b": "Tiene preferencia de paso",
-        "c": "Debe detenerse.",
-        "d": "Debe retroceder"
+        "a": "Servicio de transporte de trabajadores.",
+        "b": "Servicio de transporte de mercancías.",
+        "c": "Servicio de transporte de taxi.",
+        "d": "Servicio de transporte turístico."
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 42,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Al cambiar de dirección, un conductor debe:",
+      "statement": "Es la medida preventiva que consiste en el traslado del vehículo fuera de la vía pública dispuesto por la autoridad competente y/o PNP, utilizando cualquier medio eficaz y proporcional al fin que se persigue:",
       "image": "",
       "alternatives": {
-        "a": "Señalizar toda la maniobra hasta su culminación",
-        "b": "Cambiar de dirección y luego señalizar",
-        "c": "No existe ningunaobligación.",
-        "d": "Ninguna de las alternativas es correcta"
+        "a": "Remoción del vehículo.",
+        "b": "Retención del vehículo.",
+        "c": "Internamiento del vehículo.",
+        "d": "Interrupción del viaje."
       },
       "response": "a"
     },
@@ -592,41 +592,41 @@
       "id": 43,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Se puede conducir un vehículo con el motor en punto neutro?",
+      "statement": "Es la entidad encargada de supervisar, fiscalizar y sancionar las actividades del transporte terrestre de personas, carga y mercancías en el ámbito nacional:",
       "image": "",
       "alternatives": {
-        "a": "Sí, pero solo si está bajando una pendiente",
-        "b": "No, está prohibido.",
-        "c": "Sí, en caso de que el conductor no sea novato.",
-        "d": "No se encuentra regulado en la norma."
+        "a": "La Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías-SUTRAN",
+        "b": "La Dirección General de Transporte Terrestre del Ministerio de Transportes y Comunicaciones.",
+        "c": "El Organismo Supervisor de la Inversión en Infraestructura de Transporte de uso Público-OSITRAN.",
+        "d": "Las alternativas a) y b) son correctas"
       },
-      "response": "b"
+      "response": "a"
     },
     {
       "id": 44,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Para girar o cambiar de carril hacia la derecha, el conductor debe utilizar las luces direccionales y, en casos de fuerza mayor, la siguiente señal manual: ",
+      "statement": "El servicio de transporte debe ser prestado a través de vehículos que:",
       "image": "",
       "alternatives": {
-        "a": "Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo. ",
-        "b": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
-        "c": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
-        "d": "Ninguna de las alternativas es correcta"
+        "a": "Se encuentren habilitados.",
+        "b": "Hayan aprobado la Inspección Técnica Vehicular, cuando corresponda.",
+        "c": "Cuenten con póliza de Seguro Obligatorio de Accidentes de Tránsito vigente o Certificado Contra",
+        "d": "Todas las anteriores."
       },
-      "response": "b"
+      "response": "d"
     },
     {
       "id": 45,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
+      "statement": "¿Qué sanción pecuniaria le corresponde al conductor que presta el servicio sin contar con autorización otorgada por la autoridad competente o en una modalidad o ámbito diferente al autorizado?",
       "image": "",
       "alternatives": {
-        "a": "No podrán ser conducidos",
-        "b": "Podrán ser conducidos únicamente en zonas urbanas",
-        "c": "Podrán ser conducidos hasta por 90 días posteriores a la pérdida de vigencia de la licencia.",
-        "d": "Podrán ser conducidos con normalidad hasta que renueve su licencia."
+        "a": "Multa de 1 UIT",
+        "b": "Multa de 2 UIT",
+        "c": "Multa de 0.5 UIT",
+        "d": "Multa de 0.05 UIT"
       },
       "response": "a"
     },
@@ -634,13 +634,13 @@
       "id": 46,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "De acuerdo con el sistema de control de licencias de conducir porpuntos: ",
+      "statement": "Con relación a las jornadas de conducción. Marque la alternativa correcta:",
       "image": "",
       "alternatives": {
-        "a": "Determinadas infracciones suman puntos.",
-        "b": "Una infracción puede sumar o disminuir puntos, a elección del infractor. ",
-        "c": "Determinadas infracciones restan puntos.",
-        "d": "Ninguna de las alternativas es correcta. "
+        "a": "No debe exceder las cinco (5) horas de conducción continuas en el servicio diurno, ni las cuatro (4) horas en el servicio nocturno.",
+        "b": "No debe exceder las cuatro (4) horas de conducción continuas en el servicio diurno, ni las cuatro (5) horas en el servicio nocturno.",
+        "c": "No debe exceder las cinco (5) horas de conducción continuas en el servicio diurno, ni las cuatro (4.5) horas en el servicio nocturno.",
+        "d": "No debe exceder las cuatro (4) horas de conducción continuas en el servicio diurno, ni las tres (3) horas en el servicio nocturno."
       },
       "response": "a"
     },
@@ -648,27 +648,27 @@
       "id": 47,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál es la consecuencia de acumular 100 puntos en la licencia de conducir en un período de 24 meses? ",
+      "statement": "La hoja de ruta electrónica se debe elaborar",
       "image": "",
       "alternatives": {
-        "a": "Suspensión de licencia de conducir.",
-        "b": "Anulación de la Placa Única Nacional de Rodaje.",
-        "c": " Inhabilitación definitiva para obtener una licencia de conducir",
-        "d": " Internamiento vehicular "
+        "a": "Al culminar el servicio de transporte terrestre",
+        "b": "Durante el servicio de transporte terrestre, que incluye la relación de pasajeros",
+        "c": "antes del inicio del servicio de transporte terrestre",
+        "d": "Durante la venta del pasaje al usuario"
       },
-      "response": "a"
+      "response": ""
     },
     {
       "id": 48,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Se entiende por carril a la:",
+      "statement": "No es obligación de los usuarios del servicio de transporte de personas:",
       "image": "",
       "alternatives": {
-        "a": "Parte de la vía destinada a la circulación de peatones.",
-        "b": "Parte de la calzada destinada al tránsito de una fila de vehículos.",
-        "c": "Vía rural destinada a la circulación de peatones y animales. ",
-        "d": "Todas las alternativas son correctas."
+        "a": "Acatar las instrucciones sobre seguridad que emita el conductor o tripulación.",
+        "b": "Transportar sustancias peligrosas y materiales explosivos, con autorización del transportista.",
+        "c": "No portar en el salón del vehículo artículos o paquetes que pueden molestar o incomodar a los demás usuarios.",
+        "d": "Respetar la tarifa convenida."
       },
       "response": "b"
     },
@@ -676,40 +676,41 @@
       "id": 49,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Se entiende por línea de parada a:",
+      "statement": "Es el documento que sustenta el traslado de bienes por el transportista autorizado para prestar el servicio de transporte terrestre de mercancías:",
       "image": "",
       "alternatives": {
-        "a": "La línea transversal marcada en la calzada antes de la intersección, que indica al conductor el límite para detener el vehículo.",
-        "b": "Las líneas que se encuentran en los lugares del estacionamiento. ",
-        "c": "El lugar utilizado para embarcar y desembarcar pasajeros. ",
-        "d": "Todas las alternativas son correctas. "
+        "a": "Hoja de ruta",
+        "b": "Flete",
+        "c": "Licencia de conducir",
+        "d": "Guía de Remisión de Transportista"
       },
-      "response": "a"
+      "response": "d"
     },
     {
       "id": 50,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "La siguiente señal vertical reglamentaria P-17A, indica: ",
+      "statement": "Si el conductor transporta a sabiendas, productos explosivos, inflamables corrosivos, venenosos o similares en un vehículo del servicio de transporte de personas, comete una infracción calificada como:",
       "image": "",
       "alternatives": {
-        "a": "Reducción de la calzada al lado derecho. ",
-        "b": "Reducción de la calzada al lado izquierdo. ",
-        "c": "Reducción de la calzada en ambos lados.",
-        "d": "Ensanchamiento de la calzada en ambos lados."
+        "a": "Muy grave",
+        "b": "Grave",
+        "c": "Leve",
+        "d": "No es ni la alternativa a) ni la alternativa c)"
       },
-      "response": "c"
+      "response": "a"
     },
     {
       "id": 51,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "En caso de encontrar marcación de doble línea amarilla compuesta por un trazo continuo y otro trazo discontinuo en una vía de doble sentido, ¿qué se debe hacer?",
+      "statement": "Es la persona natural o jurídica por cuyo encargo se transporte mercancías en un vehículo habilitado para la prestación del servicio de transporte público de mercancías:",
       "image": "",
       "alternatives": {
-        "a": "Se puede adelantar en ambos sentidos.",
-        "b": "No está permitido adelantar en ningún sentido",
-        "c": "Respetar la línea que está de su lado (si es continua, no adelantar; si es discontinua, está permitido adelantar).",        "d": "Respetar la línea que está de su lado (si es discontinua, no adelantar; si es continua, está permitido adelantar) "
+        "a": "Transportista",
+        "b": "Destinatario de carga",
+        "c": "Generador de carga",
+        "d": "Ninguna de las anteriores"
       },
       "response": "c"
     },
@@ -717,69 +718,69 @@
       "id": 52,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Se define como zona rígida al: ",
+      "statement": "El inspector de transporte es la persona acreditada u homologada para:",
       "image": "",
       "alternatives": {
-        "a": "Área donde se prohíbe la circulación de vehículos",
-        "b": "Área donde se prohíbe la circulación de peatones.",
-        "c": "Área de la vía en la que se prohíbe el estacionamiento de vehículos.",
-        "d": "Todas las alternativas son correctas. "
+        "a": "Realizar acciones de control, supervisión y detección de incumplimientos o infracciones a las normas del servicio de transporte terrestre.",
+        "b": "Imponer las papeletas de infracción al tránsito",
+        "c": "Emitir la resolución de sanción por las infracciones a las normas del servicio de transporte terrestre",
+        "d": "Todas las anteriores."
       },
-      "response": "c"
+      "response": "d"
     },
     {
       "id": 53,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "La posición de frente o de espaldas ejecutada por el efectivo de la Policía Nacional del Perú asignado al control de tránsito significa: ",
+      "statement": "Los terminales terrestres son obligatorios para el servicio público de transporte regular de personas en el ámbito:",
       "image": "",
       "alternatives": {
-        "a": "Obligación de detenerse de quien así lo enfrente.",
-        "b": " Continuar la marcha por el carril izquierdo de la calzada.",
-        "c": "Continuar la marcha.",
-        "d": "Ninguna de las alternativas es correcta. "
+        "a": "Nacional y Regional.",
+        "b": "Regional y Provincial.",
+        "c": "Nacional, Regional y Provincial.",
+        "d": "Distrital, Provincial, Regional, Nacional e Internacional."
       },
-      "response": "a "
+      "response": "c"
     },
     {
       "id": 54,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en calles y jirones es de:",
+      "statement": "¿En qué momento se debe elaborar la Hoja de ruta electrónica?",
       "image": "",
       "alternatives": {
-        "a": " 30km/h.",
-        "b": " 40km/h. ",
-        "c": "60km/h",
-        "d": "80km/h"
+        "a": "Al culminar el servicio de transporte terrestre.",
+        "b": "Durante el servicio de transporte terrestre, que incluye la relación de pasajeros.",
+        "c": "Antes del inicio del servicio de transporte terrestre",
+        "d": "Durante la venta del pasaje al usuario."
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 55,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en avenidas es de:",
+      "statement": "El Reglamento Nacional de Administración de Transporte no comprende el servicio de :",
       "image": "",
       "alternatives": {
-        "a": "30km/h",
-        "b": "40km/h.",
-        "c": "60km/h. ",
-        "d": "80km/h"
+        "a": "Trabajadores",
+        "b": "Servicio de Transporte en vehículos menores.",
+        "c": "Servicio de Transporte en auto colectivo.",
+        "d": "Servicio de Transporte Turístico."
       },
-      "response": "c"
+      "response": "b"
     },
     {
       "id": 56,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en vías expresas es de: ",
+      "statement": "En el servicio de transporte el……….debe velar por el cumplimiento de las obligaciones que corresponden al conductor",
       "image": "",
       "alternatives": {
-        "a": " 60km/h. ",
-        "b": "70km/h.",
-        "c": "80km/h",
-        "d": "100km/h."
+        "a": "Generador de carga",
+        "b": "Usuario del servicio",
+        "c": "Transportista",
+        "d": "La a) y b) son correctas"
       },
       "response": "c"
     },
@@ -787,55 +788,55 @@
       "id": 57,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de: ",
+      "statement": "¿Qué sanción pecuniaria acarrea no informar por escrito a la autoridad competente dentro de las cuarenta y ocho (48) horas de producidos los accidentes de tránsito con daños personales ocurridos durante la operación del servicio?",
       "image": "",
       "alternatives": {
-        "a": "20km/h. ",
-        "b": "30km/h",
-        "c": "35km/h.",
-        "d": "50km/h."
+        "a": "Multa de 1 UIT.",
+        "b": "Multa de 2 UIT.",
+        "c": "Multa de 0.5 UIT",
+        "d": "No está tipificada esta conducta como infracción."
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 58,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
+      "statement": "De las siguientes alternativas, ¿cuál de ellas no es una forma a través de la cual concluye el procedimiento sancionador?",
       "image": "",
       "alternatives": {
-        "a": "80km/h.",
-        "b": "90km/h.",
-        "c": "100km/h.",
-        "d": " 110km/h."
+        "a": "Resolución de sanción.",
+        "b": "Resolución de archivamiento.",
+        "c": "Pago voluntario de la total de sanción.",
+        "d": "Ninguna de las anteriores."
       },
-      "response": "c"
+      "response": "d"
     },
     {
       "id": 59,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Siempre que no exista una señal de límite de velocidad mínima, el límite mínimo de velocidad en zona urbana y en carreteras es de: ",
+      "statement": "Es exigible el manifiesto de usuarios para el servicio de:",
       "image": "",
       "alternatives": {
-        "a": "30km/h.",
-        "b": "La mitad de la velocidad máxima establecida para cada tipo de vía.",
-        "c": "20 km/h. ",
-        "d": "15 km/h. "
+        "a": "Transporte regular de personas de ámbito nacional y regional.",
+        "b": "Transporte regular de personas de ámbito nacional, regional y provincial.",
+        "c": "Transporte especial de personas de ámbito provincial",
+        "d": "Todas las anteriores."
       },
-      "response": "b"
+      "response": "a"
     },
     {
       "id": 60,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál es la sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobados con el examen respectivo, o por negarse al mismo y que haya participado en un accidente de tránsito?",
+      "statement": "Los medios probatorios que sustentan los incumplimientos y las infracciones son:",
       "image": "",
       "alternatives": {
-        "a": "Multa ",
-        "b": "Cancelación de licencia de conducir. ",
-        "c": "Suspensión de la licencia de conducir.",
-        "d": "Multa, cancelación de la licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir"
+        "a": "El acta de control levantada por el inspector de transporte.",
+        "b": "El documento por el que se da cuenta de la detección de algún incumplimiento o infracción en la fiscalización de gabinete.",
+        "c": "Las actas de inspecciones, constataciones, ocurrencias, formularios y similares levantados por otras instituciones en el ejercicio de sus funciones.",
+        "d": "Todas las anteriores."
       },
       "response": "d"
     },
@@ -843,13 +844,13 @@
       "id": 61,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál es la sanción si en un operativo de alcoholemia usted es intervenido y se comprueba que ha consumido alcohol por encima del límite legal, o está conduciendo bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo?",
+      "statement": "La sanción que le corresponde al conductor por obstruir la labor de fiscalización, cuando incurre en actos de simulación, suplantación u otras conductas destinadas a hacer incurrir en error a la autoridad competente respecto de la autorización para prestar el servicio, es:",
       "image": "",
       "alternatives": {
-        "a": " Una multa",
-        "b": " La suspensión de la licencia de conducir.",
-        "c": "Multa y suspensión de la licencia de conducir por 3 años",
-        "d": "Ninguna de las alternativas es correcta. "
+        "a": "Suspensión por 30 días de la autorización.",
+        "b": "Suspensión por 60 días de la autorización.",
+        "c": "Suspensión de la licencia de conducir por 90 días y multa de 0.5 UIT.",
+        "d": "Suspensión por 120 días de la autorización."
       },
       "response": "c"
     },
@@ -857,41 +858,41 @@
       "id": 62,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "La frecuencia de la inspección técnica de un vehículo particular es:",
+      "statement": "En el servicio de transporte el……….debe velar por el cumplimiento de las obligaciones que corresponden al conductor",
       "image": "",
       "alternatives": {
-        "a": "Cada medio año. ",
-        "b": "Cada año. ",
-        "c": "Cada dos años.",
-        "d": "Cada tres años"
+        "a": "Generador de carga.",
+        "b": "Usuario del servicio.",
+        "c": "Transportista.",
+        "d": "La a) y b) son correctas."
       },
-      "response": "b"
+      "response": "c"
     },
     {
       "id": 63,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿A partir de qué año de antigüedad debe realizarse la inspección técnica de un vehículo particular para transporte de personas de hasta 9 asientos incluido el conductor de la categoría M1?",
+      "statement": "La duración acumulada de jornadas de conducción no deberá exceder:",
       "image": "",
       "alternatives": {
-        "a": "A partir del segundo año contado desde el año siguiente de su fabricación.",
-        "b": "A partir del cuarto año contado desde el año siguiente de su fabricación.",
-        "c": "A partir del quinto año contado desde el año siguiente de su fabricación.",
-        "d": " No está sujeto a inspección técnica."
+        "a": "De doce (12) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio.",
+        "b": "De ocho (8) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio.",
+        "c": "De diez (10) horas en un periodo de treinta y seis (36) horas, contadas desde el inicio de la conducción en un servicio.",
+        "d": "De diez (10) horas en un periodo de veinticuatro (24) horas, contadas desde el inicio de la conducción en un servicio."
       },
-      "response": "b"
+      "response": "d"
     },
     {
       "id": 64,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "¿Cuál es el plazo de vigencia del SOAT? ",
+      "statement": "¿A partir de qué edad los menores de edad deben ocupar su propio asiento?",
       "image": "",
       "alternatives": {
-        "a": " 1 año.",
-        "b": "6 meses.",
-        "c": "4 años. ",
-        "d": "2 años"
+        "a": "A partir de los cinco (5) años de edad.",
+        "b": "A partir de los tres (3) años de edad.",
+        "c": "A partir de los siete (7) años de edad.",
+        "d": "No edad mínima para que los menores de edad ocupen su propio asiento."
       },
       "response": "a"
     },
@@ -899,15 +900,15 @@
       "id": 65,
       "matter": "Materias especificas",
       "theme": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
-      "statement": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
+      "statement": "En materia de transporte y tránsito terrestre, la Superintendencia de Transporte Terrestre de personas, carga y Mercancías- SUTRAN, es ….",
       "image": "",
       "alternatives": {
-        "a": "Dar aviso a los bomberos. ",
-        "b": "Dar aviso solo a la compañía de seguros. ",
-        "c": "Dar aviso a la compañía de seguros y dejar constancia en la delegación de la Policía Nacional del Perú más cercana.",
-        "d": "Dar aviso únicamente a la Policía Nacional del Perú."
+        "a": "La entidad encargada de regular la infraestructura de transporte de uso público",
+        "b": "La entidad que tiene como función la promoción del mercado y la protección de los derechos de los consumidores",
+        "c": "El órgano rector a nivel nacional en materia de transporte y tránsito terrestre.",
+        "d": "La autoridad encargada de fiscalizar el servicio de transporte de personas y carga de ámbito nacional"
       },
-      "response": "c"
+      "response": "d"
     },
     {
       "id": 66,
@@ -921,7 +922,7 @@
         "c": "Sí, cuando una de ellas es un menor de tres (3) años de edad.",
         "d": "Ninguna de las anteriores."
       },
-      "response": ""
+      "response": "b"
     },
     {
       "id": 67,
