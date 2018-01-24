@@ -1,21 +1,32 @@
 const express = require('express');
 const router = express.Router();
+const isLoggedIn = require('../midlewares/index').isLoggedIn;
 const CategoriesController = require('../controllers/categoriesController'),
     cc = new CategoriesController();
 
 /* GET home page. */
 router
     .get('/', function(req, res, next) {
-        res.render('index', { title: 'Grupo Car Simulator' });
+        let login = false;
+        if(req.session.login){
+            login = true
+        }
+        res.render('index', {
+            title: 'Grupo Car Simulator',
+            login: login
+        });
     })
+    .post('/login', cc.login)
 
-    .get('/ai', cc.getAi)
-    .get('/aiia', cc.getAiia)
-    .get('/aiib', cc.getAiib)
-    .get('/aiiia', cc.getAiiia)
-    .get('/aiiib', cc.getAiiib)
-    .get('/aiiic', cc.getAiiic)
+    // Rutas protegidas:
+    .get('/ai', isLoggedIn, cc.getAi)
+    .get('/aiia', isLoggedIn, cc.getAiia)
+    .get('/aiib', isLoggedIn, cc.getAiib)
+    .get('/aiiia', isLoggedIn, cc.getAiiia)
+    .get('/aiiib', isLoggedIn, cc.getAiiib)
+    .get('/aiiic', isLoggedIn, cc.getAiiic)
 
-    .post('/check', cc.check)
-    .post('/validate', cc.validate);
+    .post('/check', isLoggedIn, cc.check)
+    .post('/validate', isLoggedIn, cc.validate);
+
 module.exports = router;
