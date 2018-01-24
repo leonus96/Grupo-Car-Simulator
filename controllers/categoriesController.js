@@ -144,8 +144,6 @@ class CategoriesController{
         let reviewed = req.body.reviewed;
         let responses = req.body.responses;
 
-        console.log(responses);
-
         res.render(
             'questions',
             {
@@ -157,6 +155,41 @@ class CategoriesController{
 
             }
         );
+    }
+
+    login(req, res, next){
+        let password = req.body.password;
+        let category = req.body.category.toString();
+        const pass = require('../data/security/pass').pass.toString();
+
+        console.log(category);
+
+        if(password == pass){
+            req.session.login = true;
+            switch (category){
+                case 'AI':
+                    res.redirect('/simulador/ai');
+                    break;
+                case 'AIIa':
+                    res.redirect('/simulador/aiia');
+                    break;
+                case 'AIIb':
+                    res.redirect('/simulador/aiib');
+                    break;
+                case 'AIIIa':
+                    res.redirect('/simulador/aiiia');
+                    break;
+                case 'AIIIb':
+                    res.redirect('/simulador/aiiib');
+                    break;
+                case 'AIIIc':
+                    res.redirect('/simulador/aiiic');
+                    break;
+            }
+        }
+        else {
+            res.redirect('/simulador');
+        }
     }
 }
 

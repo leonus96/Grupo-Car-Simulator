@@ -9,11 +9,70 @@ block content
             p.welcome__text Acabada la prueba, deseamos que lean los comentarios de todos e identifiquen el tema que les falta reforzar, con miras a estar aptos para el examen de Licencia de Conducir.
             p.welcome__text El examen estará activo las 24 horas para que puedan resolver la prueba de conocimientos, según la categoría a la que postulan. Acabada la prueba, los resultados se podrán visualizar.
     .categories.container
-        a(href='/simulador/ai' ).categories__item AI
-        a(href='/simulador/aiia').categories__item AIIa
-        a(href='/simulador/aiib').categories__item AIIb
-        a(href='/simulador/aiiia').categories__item AIIIa
-        a(href='/simulador/aiiib').categories__item.inactive AIIIb
-        a(href='/simulador/aiiic').categories__item AIIIc
+        if !login
+            button(onclick="login(this);").categories__item AI
+            button(onclick="login(this);").categories__item AIIa
+            button(onclick="login(this);").categories__item AIIb
+            button(onclick="login(this);").categories__item AIIIa
+            button(onclick="login(this);").categories__item.inactive AIIIb
+            button(onclick="login(this);").categories__item AIIIc
+        else
+            a(href="simulador/ai").categories__item AI
+            a(href="simulador/ai").categories__item AIIa
+            a(href="simulador/ai").categories__item AIIb
+            a(href="simulador/ai").categories__item AIIIa
+            a(href="simulador/ai").categories__item.inactive AIIIb
+            a(href="simulador/ai").categories__item AIIIc
+
+    script(src="/javascripts/vex/vex.min.js")
+    script(src="/javascripts/vex/vex.combined.min.js")
+    script.
+        var pass = '';
+        var category = '';
+        vex.defaultOptions.className = 'vex-theme-os'
+
+        function login(ev){
+            //console.log(ev.innerHTML);
+            vex.dialog.open({
+                message: 'Ingrese contraseña',
+                input: [
+                    '<input name="password" type="password" placeholder="Password" required />'
+                ].join(''),
+                buttons: [
+                    {text: "Ingresar", type: "submit", className: "vex-dialog-button-primary"}
+                ],
+                callback: function (data) {
+                    if (!data) {
+                        location.href = "http://grupocar.pe/simulador";
+                    } else {
+                        pass = data.password;
+                        category = ev.innerHTML;
+
+                        var form = document.createElement("form");
+                        var element1 = document.createElement("input");
+                        var element2 = document.createElement("input");
+                        form.method = "POST";
+                        form.action = "/simulador/login";
+
+                        element1.value = pass;
+                        element1.name = "password";
+
+                        element2.value = category;
+                        element2.name = "category";
+
+
+                        form.appendChild(element1);
+                        form.appendChild(element2)
+
+                        document.body.appendChild(form);
+
+                        form.submit();
+                    }
+                }
+            });
+
+        }
+
+
 
 
