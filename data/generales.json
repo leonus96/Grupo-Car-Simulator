@@ -1813,7 +1813,7 @@
         "statement": "La siguiente señal (P-51), indica:",
         "image": "/images/questions/ai/130.jpg",
         "alternatives":{
-          "a": "La siguiente señal (P-51), indica:",
+          "a": "Zona de parqueo de vehículos pesados.",
           "b": "Proximidad a zona rural.",
           "c": "Maquinaria agrícola en la vía.",
           "d": "Ninguna de las alternativas es correcta."
