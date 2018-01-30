@@ -916,20 +916,6 @@
       "id": 63,
       "matter": "Materias especificas",
       "theme": "Reglamento Nacional de Vehículos",
-      "statement": "¿Qué cantidad mínima de salidas de emergencia deben tener los vehículos de categoría M2 y M3 que se destinen al servicio de transporte escolar?",
-      "image": "",
-      "alternatives": {
-        "a": "2 salidas de emergencia para ambas categorías",
-        "b": "2 salidas de emergencia para la categoría M2 y 3 salidas de emergencia para la categoría M3",
-        "c": "1 Salida de emergencia para la categoría M2 y 2 salidas de emergencia para la categoría M3",
-        "d": "1 Salida de emergencia como mínimo para ambas categorías"
-      },
-      "response": "b"
-    },
-    {
-      "id": 64,
-      "matter": "Materias especificas",
-      "theme": "Reglamento Nacional de Vehículos",
       "statement": "¿Cuál es la potencia mínima de la luz baja?",
       "image": "",
       "alternatives": {
@@ -938,13 +924,27 @@
         "c": "25W",
         "d": "55W"
       },
-      "response": "a"
+      "response": "c"
+    },
+    {
+      "id": 64,
+      "matter": "Materias especificas",
+      "theme": "Reglamento Nacional de Vehículos",
+      "statement": "¿¿Cuál es porcentaje general para la tolerancia por eje o conjunto de ejes?",
+      "image": "",
+      "alternatives": {
+        "a": "3%",
+        "b": "5%",
+        "c": "8%",
+        "d": "4%"
+      },
+      "response": "b"
     },
     {
       "id": 65,
       "matter": "Materias especificas",
       "theme": "Reglamento Nacional de Vehículos",
-      "statement": "¿Cuál es porcentaje general para la tolerancia por eje o conjunto de ejes?",
+      "statement": "¿Cuál es el porcentaje de la tolerancia en el control del ancho de la mercancía transportada?",
       "image": "",
       "alternatives": {
         "a": "5% del ancho máximo del vehículo%",
