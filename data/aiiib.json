@@ -204,7 +204,7 @@
       "image": "",
       "alternatives": {
         "a": "50 toneladas.",
-        "b": "8 toneladas.",
+        "b": "48 toneladas.",
         "c": "46 toneladas.",
         "d": "45 toneladas"
       },
@@ -264,7 +264,7 @@
         "c": "Solo cuando no tiene carga pesada",
         "d": "Depende de los ejes o conjunto de ejes del vehículo"
       },
-      "response": ""
+      "response": "b"
     },
     {
       "id": 20,
@@ -404,7 +404,7 @@
         "c": "resorte",
         "d": "brazo de torsión"
       },
-      "response": ""
+      "response": "c"
     },
     {
       "id": 30,
@@ -603,7 +603,7 @@
         "c": "Ninguna de las anteriores.",
         "d": "Que al generador de carga se le pague un flete."
       },
-      "response": ""
+      "response": "b"
     },
     {
       "id": 44,
