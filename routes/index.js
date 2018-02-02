@@ -25,6 +25,7 @@ router
     .get('/aiiia', isLoggedIn, cc.getAiiia)
     .get('/aiiib', isLoggedIn, cc.getAiiib)
     .get('/aiiic', isLoggedIn, cc.getAiiic)
+    .get('/senales', isLoggedIn, cc.getSignals)
 
     .post('/check', isLoggedIn, cc.check)
     .post('/validate', isLoggedIn, cc.validate);

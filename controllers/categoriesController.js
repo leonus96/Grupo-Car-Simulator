@@ -119,6 +119,23 @@ class CategoriesController{
         });
     }
 
+    getSignals(req, res, next){
+        console.log("entré ");
+        let data_sen = require('../data/señales');
+        let array_sen = getList(data_sen.questions.length);
+        let newRandom_g = randomFromListGenerator(array_sen);
+        let questions = {
+            questions: []
+        };
+        for(let i = 0; i < 40; i++)
+            questions.questions.push(data_sen.questions[newRandom_g()])
+        console.log(questions);
+        res.render('questions', {
+            title: "Simulador de examen: Señales",
+            questions: questions.questions
+        });
+    }
+
     check(req, res, next){
         let questionData = req.body.questionData,
             responses = req.body.responses,
@@ -186,6 +203,10 @@ class CategoriesController{
                     break;
                 case 'AIIIc':
                     res.redirect('/simulador/aiiic');
+                    break;
+                case 'Señales':
+                    console.log("entré a señales");
+                    res.redirect('/simulador/senales');
                     break;
             }
         }
