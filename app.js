@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var index = require('./routes/index');
+var cams = require('./routes/cams');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/simulador', index);
+app.use('/', cams);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

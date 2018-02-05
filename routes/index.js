@@ -28,6 +28,8 @@ router
     .get('/senales', isLoggedIn, cc.getSignals)
 
     .post('/check', isLoggedIn, cc.check)
-    .post('/validate', isLoggedIn, cc.validate);
+    .post('/validate', isLoggedIn, cc.validate)
+
+
 
 module.exports = router;
