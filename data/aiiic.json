@@ -520,7 +520,7 @@
         "c_img": "/images/questions/aiiic/34_c.jpg",
         "d_img": ""
       },
-      "response": "c"
+      "response": "b"
     },
     {
       "id": 36,
@@ -930,7 +930,7 @@
       "id": 64,
       "matter": "Materias especificas",
       "theme": "Reglamento Nacional de Vehículos",
-      "statement": "¿¿Cuál es porcentaje general para la tolerancia por eje o conjunto de ejes?",
+      "statement": "¿Cuál es porcentaje general para la tolerancia por eje o conjunto de ejes?",
       "image": "",
       "alternatives": {
         "a": "3%",
