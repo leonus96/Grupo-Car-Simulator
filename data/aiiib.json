@@ -12,7 +12,7 @@
         "c": "8%",
         "d": "4%"
       },
-      "response": "c"
+      "response": "b"
     },
     {
       "id": 2,
@@ -645,7 +645,7 @@
         "c": "antes del inicio del servicio de transporte terrestre",
         "d": "Durante la venta del pasaje al usuario"
       },
-      "response": ""
+      "response": "c"
     },
     {
       "id": 47,
