@@ -23,7 +23,7 @@ function load() {
             counter_s = 59;
         }
         if(counter_s <= 9)
-            s.innerHTM L = '0' + counter_s;
+            s.innerHTML = '0' + counter_s;
         else
             s.innerHTML = counter_s + '';
         counter_s--;
